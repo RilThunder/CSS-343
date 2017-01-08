@@ -110,6 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="WordTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CountWords.cpp" />
+    <ClCompile Include="WordTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
