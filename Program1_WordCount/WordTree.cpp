@@ -10,7 +10,7 @@ WordTree::WordTree()
 
 WordTree::~WordTree()
 {
-	delete(root);
+	deleteTree(root);
 }
 
 void WordTree::Add(string theString)
@@ -23,7 +23,7 @@ int WordTree::NumWords()
 {
 	int count = 0;
 	helperNumWords(root, count);
-	cout << count;
+	return count;
 }
 
 
@@ -53,11 +53,11 @@ WordTree::WordNode * WordTree::helperAdd(WordNode * Node, string theString)
 	}
 	if (theString < Node->data)
 	{
-		Node = helperAdd(Node->left, theString);
+		Node->left = helperAdd(Node->left, theString);
 	}
 	else
 	{
-		Node = helperAdd(Node->right, theString);
+		Node->right = helperAdd(Node->right, theString);
 
 	}
 	return Node;
