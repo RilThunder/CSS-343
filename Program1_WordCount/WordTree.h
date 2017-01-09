@@ -39,7 +39,7 @@ private:
 	friend ostream& operator<<(ostream &output, const WordTree &wordTree);
 	void helperNumWords(WordNode *Node, int &count);
 	void helperOutPut(ostream& output, WordNode *root) const;
-
+	//
 };
 #endif
 
