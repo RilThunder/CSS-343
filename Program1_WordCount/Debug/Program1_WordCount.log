@@ -1,2 +1,3 @@
 ﻿  WordTree.cpp
-LINK : fatal error LNK1561: entry point must be defined
+  Program1_WordCount.vcxproj -> C:\Users\oda1234\Source\Repos\CSS-343\Program1_WordCount\Debug\Program1_WordCount.exe
+  Program1_WordCount.vcxproj -> C:\Users\oda1234\Source\Repos\CSS-343\Program1_WordCount\Debug\Program1_WordCount.pdb (Partial PDB)

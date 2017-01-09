@@ -82,13 +82,10 @@ void WordTree::helperOutPut(ostream & output, WordNode * root) const
 	{
 		helperOutPut(output, root->left);
 		// Inorder traversal
-		output << root->data << " " << root->frequency;
+		output << root->data << " " << root->frequency << " " << endl;
 		helperOutPut(output, root->right);
 	}
 }
-
-
-
 
 ostream & operator<<(ostream & output, const WordTree & wordTree)
 {
