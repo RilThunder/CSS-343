@@ -1,6 +1,13 @@
+/**
+	Assignment 1: Word Counting using a Binary Search Tree
+	WordTree.cpp
+	Purpose: Implementation file for the WordTree.cpp
+
+	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
+	@version 1 January 8th,2017
+*/
+
 #include "WordTree.h"
-
-
 
 WordTree::WordTree()
 {
@@ -10,7 +17,7 @@ WordTree::WordTree()
 
 WordTree::~WordTree()
 {
-	deleteTree(root);
+	deleteTree(root); // starting delete at the root and go all the way down using post order
 }
 
 void WordTree::Add(string theString)
@@ -20,9 +27,9 @@ void WordTree::Add(string theString)
 }
 
 int WordTree::NumWords()
-{
+{ 
 	int count = 0;
-	helperNumWords(root, count);
+	helperNumWords(root, count); // Increment count by manipulating the memory directly
 	return count;
 }
 
@@ -44,16 +51,16 @@ WordTree::WordNode * WordTree::helperAdd(WordNode * Node, string theString)
 {
 	if (Node == NULL)
 	{
-		return new WordNode(NULL, NULL, theString,1);
+		return new WordNode(NULL, NULL, theString,1); // We have found a place to insert
 	}
-	if (Node->data == theString)
+	if (Node->data == theString) // The string is already there, update the frequency
 	{
 		Node->frequency = Node->frequency + 1;
 		return Node;
 	}
-	if (theString < Node->data)
+	if (theString < Node->data) // Using binary search to find a place
 	{
-		Node->left = helperAdd(Node->left, theString);
+		Node->left = helperAdd(Node->left, theString); // Recursively travel and update the Node 
 	}
 	else
 	{

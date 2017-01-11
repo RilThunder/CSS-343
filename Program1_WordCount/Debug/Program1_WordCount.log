@@ -1,5 +1,2 @@
-﻿  WordTree.cpp
-  CountWords.cpp
-  Generating Code...
-  Program1_WordCount.vcxproj -> C:\Users\oda1234\Source\Repos\CSS-343\Program1_WordCount\Debug\Program1_WordCount.exe
-  Program1_WordCount.vcxproj -> C:\Users\oda1234\Source\Repos\CSS-343\Program1_WordCount\Debug\Program1_WordCount.pdb (Partial PDB)
+﻿  CountWords.cpp
+c:\users\thuan\source\repos\css-343\program1_wordcount\countwords.cpp(35): error C3861: 'processString': identifier not found
