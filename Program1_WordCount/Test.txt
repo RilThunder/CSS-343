@@ -1,0 +1,6 @@
+Additional method in CountWords.cpp that process the line
+Here is my approach, word that has a number between it is invalid. 
+So for example : nam1e will be invalid and not added to the WordTree
+I will continue to scan the character and append them to a string. When I reach the a whitespace, it mean that I will add the string to the WordTree
+I decided to use a Boolean variable to indicate if there has been a number between the character before I encounter a space. If there is, I will reset the string and skip the remainding character until I encounter a white space.
+

@@ -41,6 +41,10 @@ public:
 	*/
 	int NumWords();
 	
+	/**
+	This method overload the output operator and it will display each word and frequency in the string
+	*/
+	friend ostream& operator<<(ostream &output, const WordTree &wordTree);
 	
 private:
 	class WordNode
@@ -59,7 +63,8 @@ private:
 	WordNode *root;
 	
 	/**
-		This private method is used to delete the Tree by using post order traversal
+		This private method is used to delete the Tree 
+		Using postorder traversal
 		@param Node the pointer to the Node to delete
 	*/
 	void deleteTree(WordNode *Node);
@@ -72,13 +77,11 @@ private:
 	*/
 	WordNode * helperAdd(WordNode *Node, string theString);
 	
-	/**
-		This method overload the output operator and it will display each word and frequency in the string
-	*/
-	friend ostream& operator<<(ostream &output, const WordTree &wordTree);
+
 	
 	/**
 		This method is used to count the word in the tree
+		Using Preorder Traversal
 		@param Node the pointer to the Node we are currently at
 		@count an integer value that we will increment using reference
 	*/
@@ -86,6 +89,7 @@ private:
 
 	/**
 		This is a private helper method to display the output
+		Using Inorder traversal
 	*/
 	void helperOutPut(ostream& output, WordNode *root) const;
 	//
