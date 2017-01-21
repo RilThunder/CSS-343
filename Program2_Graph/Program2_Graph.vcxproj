@@ -110,6 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GraphM.h" />
+    <ClInclude Include="NodeData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphM.cpp" />
+    <ClCompile Include="Lab3.cpp" />
+    <ClCompile Include="NodeData.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
