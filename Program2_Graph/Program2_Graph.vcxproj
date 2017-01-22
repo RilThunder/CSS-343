@@ -113,10 +113,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GraphL.h" />
     <ClInclude Include="GraphM.h" />
     <ClInclude Include="NodeData.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GraphL.cpp" />
     <ClCompile Include="GraphM.cpp" />
     <ClCompile Include="Lab3.cpp" />
     <ClCompile Include="NodeData.cpp" />
