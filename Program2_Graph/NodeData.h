@@ -20,7 +20,7 @@ public:
 
 	// set class data from data file
 	// returns true if the data is set, false when bad data, i.e., is eof
-	bool setData(istream&);
+	bool setData(ifstream &file);
 
 	bool operator==(const NodeData &) const;
 	bool operator!=(const NodeData &) const;

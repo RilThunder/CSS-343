@@ -1,62 +1,44 @@
-/**
-	Assignment 2: Using Dijkstra's Algorithm to find the shortest path
-	Create a Graph class that can will be able to display path from a text file 
-	GraphM.h
-	Purpose: Headerfile for the GraphM.cpp
-
-	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
-	@version 1.1 January 20th,2017
-*/
-
-
-
-
-
-
-#ifndef _GRAPH_H
-#define _GRAPH_H
-#include "NodeData.h"
-#include <iostream>
-#include<string>
-#include <limits>
+#ifndef _GRAPHM_H
+#define _GRAPHM_H
+#include "nodedata.h"
+#include <climits>
+#include <iomanip>
+#include <sstream>
+#include <string>
 using namespace std;
 
-#pragma once
 
 class GraphM
 {
-
-
-
-
 public:
-	
 	GraphM();
 	~GraphM();
-	void buildGraph(ifstream &file);
-	void insertEdge(int firstNode, int secondNode, int weight);
-	void removeEdge(int firstNode, int secondNode);
-	void findShortestPath();
+	void buildGraph(ifstream& file);
+	void insertEdge(int firstNode, int secondNode, int weight);  
+	void findShortestPath(); 
 	void displayAll();
-	void display(int startNode, int endNode);
+	void display(int startNode, int destination);
+	//void initArrayVisited(); //Set all value in array to not visited
+	void getPath(const int, const int) const; //Print path from/to node
+	void getPathData(const int, const int) const; //Print description's 
+	//int findNext(TableType[], int, int); //find smallest unmarked v
+	void removeEdge(int firstNode, int secondNode); //Remove cost
+
+
+
 
 private:
-    struct TableType
+	static const int MAXNODES = 101; //101 since index 0 is not used
+	struct TableType
 	{
-		bool visited;          // whether node has been visited 
-		int dist;              // shortest distance from source known so far 
-		int previousVertex;              // previous node in path of min dist 
+		bool visited; // whether node has been visited
+		int dist; // shortest distance from source known so far
+		int path; // previous node in path of min dist
 	};
-	static const int MAXNODES = 100;
-	NodeData data[MAXNODES];              // data for graph nodes  
-	int C[MAXNODES][MAXNODES];            // Cost array, the adjacency matrix 
-	int size;                             // number of nodes in the graph 
-	TableType T[MAXNODES][MAXNODES];      // stores visited, distance, path 
-
-
-
-
-
+	NodeData data[MAXNODES]; // data for graph nodes information
+	int C[MAXNODES][MAXNODES]; // Cost array, the adjacency matrix
+	int size; // number of nodes in the graph
+	TableType T[MAXNODES][MAXNODES]; // stores visited, distance, path
+	
 };
-
-#endif 
+#endif
