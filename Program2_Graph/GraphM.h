@@ -14,15 +14,14 @@ public:
 	GraphM();
 	~GraphM();
 	void buildGraph(ifstream& file);
-	void insertEdge(int firstNode, int secondNode, int weight);  
+	
+	void insertEdge(int firstNode, int secondNode, int weight);
 	void findShortestPath(); 
 	void displayAll();
-	void display(int startNode, int destination);
-	//void initArrayVisited(); //Set all value in array to not visited
-	void getPath(const int, const int) const; //Print path from/to node
-	void getPathData(const int, const int) const; //Print description's 
-	//int findNext(TableType[], int, int); //find smallest unmarked v
-	void removeEdge(int firstNode, int secondNode); //Remove cost
+	void display(int startNode, int endNode);
+	
+	
+	void removeEdge(int firstNode, int secondNode); 
 
 
 
@@ -40,5 +39,11 @@ private:
 	int size; // number of nodes in the graph
 	TableType T[MAXNODES][MAXNODES]; // stores visited, distance, path
 	
+
+
+
+	void getNumberPath(int startNode, int endNode); //Print path from/to node
+	void getStringPath(int startNode, int endNode); //Print description's 
+	int minimumDistance(int source);
 };
 #endif
