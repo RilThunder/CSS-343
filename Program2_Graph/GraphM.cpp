@@ -1,13 +1,20 @@
-﻿
+﻿/**
+	Assignment 2: Implement Dijkstra's algorith and Depth-first search
+	Purpose: Get and process a text file, print out its path
+	GraphM.cpp Implemtation file
 
+	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
+	@version 1.1 January 22th,2017
+*/
 #include "graphm.h"
-
 
 GraphM::GraphM()
 
 {
-	// Initialize all Node to have Maximum weight and distance
-	for (int i = 1; i < MAXNODES; i++) 
+	// All cost matrix and distance of table will have infinity weight
+	// every Node will be marked as unvisited
+	// the previous path will be 0
+	for (int i = 1; i < MAXNODES; i++)
 	{
 		for (int j = 1; j < MAXNODES; j++)
 		{
@@ -24,47 +31,41 @@ GraphM::~GraphM()
 {
 }
 
-void GraphM::getNumberPath(int startNode, int endNode) 
+void GraphM::getNumberPath(int startNode, int endNode)
 {
 	// Recursively get the path
-	// To get from 1 to 4, we need from 1-3, to get from 1-3, we need from 1-2 and etc..
-	// Work backward
+	// Go backward to see what is the previous Node at the destination and backward from there
 	if (startNode != endNode)
 	{
-		if (T[startNode][endNode].path != 0) // Check if we can get to that Node 
+		if (T[startNode][endNode].path != 0)
 		{
-			getNumberPath(startNode, T[startNode][endNode].path); 
+			getNumberPath(startNode, T[startNode][endNode].path);
 		}
 	}
-	cout << endNode << " "; 
+	cout << endNode << " ";
 }
 
-//---------------------------------------------------------------------------
-// display
-// takes two int values and displays source, destination, path, distance, 
-// and the names of of of the paths.
-
-void GraphM::display( int startNode,  int endNode) 
+void GraphM::display(int startNode, int endNode)
 {
-	cout << endl; 
-	if (startNode <= 0 || endNode <= 0 || startNode > 100 || endNode > 100)
+	cout << endl;
+	if (startNode <= 0 || endNode <= 0 || startNode > 100 || endNode > 100) // Check for special cases
 	{
 		cout << "Invalid index to use, Can not print out" << endl;
 
 	}
 	if (T[startNode][endNode].dist != INT_MAX) // Check to see if we can reach from 2 Node;
 	{
-		cout << startNode  << setw(20)<< endNode ;
-		cout << setw(20) <<T[startNode][endNode].dist << setw(20);
+		cout << startNode << setw(20) << endNode;
+		cout << setw(20) << T[startNode][endNode].dist << setw(20);
 		getNumberPath(startNode, endNode); // Print out the numeric distance
 		cout << endl;
 	}
-	else //Equals Infinity, no path
+	else // We cannot reach between 2 Node
 	{
-		cout <<  startNode << setw(20) << endNode ;
-		cout << setw(20 ) << " Unreachable" ;
+		cout << startNode << setw(20) << endNode;
+		cout << setw(20) << " Unreachable";
 		cout << endl;
-		return;
+		return; // At this point, no longer need to do anything
 	}
 
 	getStringPath(startNode, endNode); //Get the Descriptions of path before desitionation 
@@ -73,10 +74,10 @@ void GraphM::display( int startNode,  int endNode)
 }
 
 
-void GraphM::getStringPath( int startNode,  int endNode) 
+void GraphM::getStringPath(int startNode, int endNode)
 {
 	// Recursively get the path
-	
+	// Go backward to see what is the previous Node at the destination and backward from there
 	if (startNode != endNode)
 	{
 		if (T[startNode][endNode].path != 0)  // Check if we can ever reach the destination from the starting point
@@ -92,35 +93,36 @@ void GraphM::getStringPath( int startNode,  int endNode)
 void GraphM::displayAll()
 {
 	cout << endl;
-cout << "Description     "   << "From Node    "  << "To Node    " <<    "Dijikstra's  ";
-cout <<  "Path" << endl;
+	cout << "Description     " << "From Node    " << "To Node    " << "Dijikstra's  ";
+	cout << "Path" << endl;
 
-// loop through the table and print out 
-for (int i = 1;i <= size ; i++)
-{
-	cout <<  data[i] << endl; 
-	// Skip a line to print out the path
-	for (int j = 1; j <= size; j++)
+	// loop through the table and print out 
+	for (int i = 1;i <= size; i++)
 	{
-		if (i == j)
+
+		cout << data[i] << endl;  // Print out the name of Node and skip a line
+	
+		for (int j = 1; j <= size; j++)
 		{
-			continue; // Do not need to print itself
-		}
-		if (T[i][j].dist > 0 && T[i][j].dist < INT_MAX)
-		{
-			cout  << setw(20) <<i   << setw(11) << j << " ";
-			cout <<  setw(10) << T[i][j].dist << setw(13) ;
-			getNumberPath(i, j); //Print Path
-			cout << endl;
-		}
-		else
+			if (i == j)
 			{
-				cout  <<setw(20) <<i << setw(10) << j;
+				continue; // Do not need to print itself
+			}
+			if (T[i][j].dist > 0 && T[i][j].dist < INT_MAX)
+			{
+				cout << setw(20) << i << setw(11) << j << " ";
+				cout << setw(10) << T[i][j].dist << setw(13);
+				getNumberPath(i, j); //Print Path
+				cout << endl;
+			}
+			else
+			{
+				cout << setw(20) << i << setw(10) << j;
 				cout << setw(15) << "-----" << endl;
 			}
+		}
 	}
-}
-      
+
 }
 
 
@@ -137,18 +139,18 @@ void GraphM::insertEdge(int firstNode, int secondNode, int weight)
 
 void GraphM::removeEdge(int firstNode, int secondNode)
 {
-	insertEdge(firstNode, secondNode, INT_MAX);
+	insertEdge(firstNode, secondNode, INT_MAX); // just need to update the cost to be infinity
 }
 
 void GraphM::buildGraph(ifstream& file)
 {
 	int firstNode = 0;
-		int secondNode = 0;
-		int weight = 0;
+	int secondNode = 0;
+	int weight = 0;
 	string result;
-	
-	size = file.get() - '0';
-	getline(file, result);
+
+	size = file.get() - '0'; // get the first Number
+	getline(file, result);// skip that number
 	for (int i = 1; i <= size; i++)
 	{
 		data[i].setData(file); // Get the data of the Node;
@@ -157,7 +159,7 @@ void GraphM::buildGraph(ifstream& file)
 	{
 		getline(file, result);
 		stringstream ss(result);
-		ss >> firstNode >> secondNode >> weight;
+		ss >> firstNode >> secondNode >> weight; // Pass in the data
 		if (firstNode == 0 && secondNode == 0 && weight == 0) // Indicate end of graph
 		{
 			break;
@@ -165,9 +167,6 @@ void GraphM::buildGraph(ifstream& file)
 		insertEdge(firstNode, secondNode, weight); //insert line of data
 	}
 }
-
-
-
 
 void GraphM::findShortestPath()
 {
@@ -183,33 +182,29 @@ void GraphM::findShortestPath()
 
 			for (int i = 1; i <= size; i++)
 			{
-				if ((T[source][i].visited) || (C[v][i] == INT_MAX  )  )
+				if ((T[source][i].visited) || (C[v][i] == INT_MAX))
 				{
-				  continue; // Skip the vertex where we visited or where we can not reach
+					continue; // Skip the vertex where we visited or where we can not reach
 
-                }
+				}
 
-					if ((T[source][i].dist > (T[source][v].dist + C[v][i])))
-					{
-						T[source][i].dist = T[source][v].dist + C[v][i];
-						T[source][i].path = v; //Add v to the path
-					}
+				if ((T[source][i].dist > (T[source][v].dist + C[v][i])))
+				{
+					T[source][i].dist = T[source][v].dist + C[v][i];
+					T[source][i].path = v; //Add v to the path
 				}
 			}
-			
 		}
-		
-	for (int i = 1; i < size + 1; i++)
+	}
+
+	/*for (int i = 1; i < size + 1; i++)
 	{
-		for (int j = 1;j< size + 1;j++)
+		for (int j = 1;j < size + 1;j++)
 		{
 			T[i][j].visited = false; //set all to false
 		}
-	}
-	}
-
-
-
+	}*/
+}
 
 int GraphM::minimumDistance(int x)
 {
@@ -224,8 +219,8 @@ int GraphM::minimumDistance(int x)
 		}
 		if (T[x][i].dist < min) // Find a new minimum distance
 		{
-			 min = T[x][i].dist;
-			 result = i;
+			min = T[x][i].dist;
+			result = i;
 		}
 	}
 	return result; //Return v which has shortest dist and is unmarked
