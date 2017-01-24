@@ -1,1 +1,1 @@
-![ScreenShot] CSS-343/Program1_WordCount/image.png 
+![ScreenShot](CSS-343/Program1_WordCount/image.png) 
