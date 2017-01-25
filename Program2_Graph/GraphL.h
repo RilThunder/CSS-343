@@ -50,5 +50,10 @@ private:
 		EdgeNode* nextEdge;
 	};
 	GraphNode data[MAX_NODES];
+
+
+	int size; // How many Nodes are there in the graph
+
+	void insertGraphNode(int x, int y);
 };
 #endif
