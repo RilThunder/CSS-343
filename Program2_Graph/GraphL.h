@@ -55,5 +55,11 @@ private:
 	int size; // How many Nodes are there in the graph
 
 	void insertGraphNode(int x, int y);
+
+	void helperOutPut();
+
+	void helperDFS(int x );
+	
+
 };
 #endif

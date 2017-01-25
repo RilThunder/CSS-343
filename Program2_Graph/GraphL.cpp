@@ -45,10 +45,17 @@ void GraphL::buildGraph(ifstream & file)
 
 void GraphL::displayGraph()
 {
+	helperOutPut();
 }
 
 void GraphL::depthFirstSearch()
 {
+	for (int i = 1; i <= size; i++)
+	{
+		helperDFS(i);
+
+	}
+	return;
 }
 void GraphL::insertGraphNode(int x, int y)
 {
@@ -71,3 +78,39 @@ void GraphL::insertGraphNode(int x, int y)
 	}
 	return;
 }
+
+void GraphL::helperOutPut()
+{
+	for (int i = 1; i <= size; i++)
+	{
+		cout << "Node " << i << setw(20) << data[i].data << endl;
+		EdgeNode *x = data[i].edgeHead;
+		while (x != NULL)
+		{
+			cout << setw(5) << "edge " << i << " " << x->adjGraphNode;
+			x = x->nextEdge;
+		}
+	}
+
+}
+
+void GraphL::helperDFS(int x)
+{
+	if (data[x].visited)
+	{
+		return;
+
+	}
+	EdgeNode *info = data[x].edgeHead;
+	int count = info->adjGraphNode;
+	cout << x;
+	while (info != NULL)
+	{
+		helperDFS(info->adjGraphNode);
+		info = info->nextEdge;
+	}
+	data[count].visited = true;
+
+}
+
+
