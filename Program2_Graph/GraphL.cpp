@@ -28,7 +28,9 @@ void GraphL::buildGraph(ifstream & file)
 	getline(file, result);// skip that number
 	for (int i = 1; i <= size; i++)
 	{
-		data[i].data->setData(file); // Get the data of the Node;
+		NodeData* newNode = new NodeData();
+		newNode->setData(file);
+		data[i].data = newNode;; // Get the data of the Node;
 	}
 	while (!file.eof())
 	{
