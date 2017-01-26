@@ -8,11 +8,11 @@
 using namespace std;
 
 #pragma once
-class GraphL
+class graphl
 {
 public:
-	GraphL();
-	~GraphL();
+	graphl();
+	~graphl();
 
 	/**
 		This function will take in a text file and construct a new graph out of it
@@ -40,7 +40,7 @@ private:
 	struct GraphNode
 	{    // structs used for simplicity, use classes if desired 
 		EdgeNode* edgeHead; // head of the list of edges 
-		NodeData* data;     // data information about each node
+		nodedata* data;     // data information about each node
 		bool visited;
 
 	};

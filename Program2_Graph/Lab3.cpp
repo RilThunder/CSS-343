@@ -20,8 +20,8 @@ using namespace std;
 
 int main() {
 	
-/*	// part 1
-	ifstream infile1("data31.txt");
+	// part 1
+	ifstream infile1("dataUWB.txt");
 	if (!infile1) {
 		cout << "File could not be opened." << endl;
 		return 1;
@@ -29,7 +29,7 @@ int main() {
 
 	//for each graph, find the shortest path from every node to all other nodes
 	for (;;){
-		GraphM G;
+		graphm G;
 		G.buildGraph(infile1);
 		if (infile1.eof())
 			break;
@@ -39,7 +39,7 @@ int main() {
 		G.display(1, 2);
 		G.display(1, 4);
 	}
-	*/
+	/*
 	// part 2 
 	ifstream infile2("data32.txt");
 	if (!infile2) {
@@ -57,6 +57,6 @@ int main() {
 		G.depthFirstSearch();    // find and display depth-first ordering to cout
 	}
 	
-	cout << endl;
+	cout << endl;*/
 	return 0;
 }

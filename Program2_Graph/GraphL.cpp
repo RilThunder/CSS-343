@@ -1,8 +1,8 @@
-#include "GraphL.h"
+#include "graphl.h"
 
 
 
-GraphL::GraphL()
+graphl::graphl()
 {
 	size = 0;
 	for (int i = 1; i < MAX_NODES; i++)
@@ -15,11 +15,11 @@ GraphL::GraphL()
 }
 
 
-GraphL::~GraphL()
+graphl::~graphl()
 {
 }
 
-void GraphL::buildGraph(ifstream & file)
+void graphl::buildGraph(ifstream & file)
 {
 	int firstNode = 0;
 	int secondNode = 0;
@@ -28,7 +28,7 @@ void GraphL::buildGraph(ifstream & file)
 	getline(file, result);// skip that number
 	for (int i = 1; i <= size; i++)
 	{
-		NodeData* newNode = new NodeData();
+		nodedata* newNode = new nodedata();
 		newNode->setData(file);
 		data[i].data = newNode;; // Get the data of the Node;
 	}
@@ -45,21 +45,23 @@ void GraphL::buildGraph(ifstream & file)
 	}
 }
 
-void GraphL::displayGraph()
+void graphl::displayGraph()
 {
 	helperOutPut();
 }
 
-void GraphL::depthFirstSearch()
+void graphl::depthFirstSearch()
 {
+	cout << "Depth First Search : ";
 	for (int i = 1; i <= size; i++)
 	{
 		helperDFS(i);
 
 	}
+	cout << endl;
 	return;
 }
-void GraphL::insertGraphNode(int x, int y)
+void graphl::insertGraphNode(int x, int y)
 {
 	if (x <= 0 || y <= 0 || x > 100 || y > 100) // Check for special cases
 	{
@@ -81,43 +83,45 @@ void GraphL::insertGraphNode(int x, int y)
 	return;
 }
 
-void GraphL::helperOutPut()
+void graphl::helperOutPut()
 {
 	for (int i = 1; i <= size; i++)
 	{
-		cout << "Node " << i << setw(20) << data[i].data << endl;
+		cout << "Node " << i  << "            " << *data[i].data << endl;
 		EdgeNode *x = data[i].edgeHead;
 		while (x != NULL)
 		{
-			cout << setw(5) << "edge " << i << " " << x->adjGraphNode;
+	
+			cout  << "    edge "  <<i << " " << x->adjGraphNode << endl;
 			x = x->nextEdge;
 		}
 	}
 
 }
 
-void GraphL::helperDFS(int x)
+void graphl::helperDFS(int x)
 {
 	if (data[x].visited)
 	{
 		return;
 
 	}
+	cout << x << " ";
+	data[x].visited = true;
 	EdgeNode *info = data[x].edgeHead;
 	if (info == NULL)
 	{
 		return;
 	}
 	int count = info->adjGraphNode;
-	cout << x;
+
 	while (info != NULL)
 	{
 		helperDFS(info->adjGraphNode);
 		//data[count].visited = true;
 		info = info->nextEdge;
 	}
-	data[count].visited = true;
-
+	
 }
 
 

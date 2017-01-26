@@ -17,7 +17,7 @@
 using namespace std;
 
 
-class GraphM
+class graphm
 {
 public:
 	/**
@@ -26,13 +26,13 @@ public:
 		The cost matrix will be infinity
 		the data member T is initialized to sets all dist to infinity, sets all visited to false, and sets all path to 0.
 	*/
-	GraphM();
+	graphm();
 
 	/**
 		This is the default constructor
 		Not implemented
 	*/
-	~GraphM();
+	~graphm();
 
 	/**
 		This function will take in a text file and construct a new graph out of it
@@ -82,7 +82,7 @@ private:
 		int dist; // shortest distance from source known so far
 		int path; // previous node in path of min dist
 	};
-	NodeData data[MAXNODES]; // data for graph nodes information
+	nodedata data[MAXNODES]; // data for graph nodes information
 	int C[MAXNODES][MAXNODES]; // Cost array, the adjacency matrix
 	int size; // number of nodes in the graph
 	TableType T[MAXNODES][MAXNODES]; // stores visited, distance, path

@@ -8,26 +8,26 @@ using namespace std;
 // simple class containing one string to use for testing
 // not necessary to comment further
 
-class NodeData {
-	friend ostream & operator<<(ostream &, const NodeData &);
+class nodedata {
+	friend ostream & operator<<(ostream &, const nodedata &);
 
 public:
-	NodeData();          // default constructor, data is set to an empty string
-	~NodeData();
-	NodeData(const string &);      // data is set equal to parameter
-	NodeData(const NodeData &);    // copy constructor
-	NodeData& operator=(const NodeData &);
+	nodedata();          // default constructor, data is set to an empty string
+	~nodedata();
+	nodedata(const string &);      // data is set equal to parameter
+	nodedata(const nodedata &);    // copy constructor
+	nodedata& operator=(const nodedata &);
 
 	// set class data from data file
 	// returns true if the data is set, false when bad data, i.e., is eof
 	bool setData(ifstream &file);
 
-	bool operator==(const NodeData &) const;
-	bool operator!=(const NodeData &) const;
-	bool operator<(const NodeData &) const;
-	bool operator>(const NodeData &) const;
-	bool operator<=(const NodeData &) const;
-	bool operator>=(const NodeData &) const;
+	bool operator==(const nodedata &) const;
+	bool operator!=(const nodedata &) const;
+	bool operator<(const nodedata &) const;
+	bool operator>(const nodedata &) const;
+	bool operator<=(const nodedata &) const;
+	bool operator>=(const nodedata &) const;
 
 private:
 	string data;

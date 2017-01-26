@@ -8,7 +8,7 @@
 */
 #include "graphm.h"
 
-GraphM::GraphM()
+graphm::graphm()
 
 {
 	// All cost matrix and distance of table will have infinity weight
@@ -27,11 +27,11 @@ GraphM::GraphM()
 	size = 0;
 }
 
-GraphM::~GraphM()
+graphm::~graphm()
 {
 }
 
-void GraphM::getNumberPath(int startNode, int endNode)
+void graphm::getNumberPath(int startNode, int endNode)
 {
 	// Recursively get the path
 	// Go backward to see what is the previous Node at the destination and backward from there
@@ -45,7 +45,7 @@ void GraphM::getNumberPath(int startNode, int endNode)
 	cout << endNode << " ";
 }
 
-void GraphM::display(int startNode, int endNode)
+void graphm::display(int startNode, int endNode)
 {
 	cout << endl;
 	if (startNode <= 0 || endNode <= 0 || startNode > 100 || endNode > 100) // Check for special cases
@@ -74,7 +74,7 @@ void GraphM::display(int startNode, int endNode)
 }
 
 
-void GraphM::getStringPath(int startNode, int endNode)
+void graphm::getStringPath(int startNode, int endNode)
 {
 	// Recursively get the path
 	// Go backward to see what is the previous Node at the destination and backward from there
@@ -90,7 +90,7 @@ void GraphM::getStringPath(int startNode, int endNode)
 
 
 
-void GraphM::displayAll()
+void graphm::displayAll()
 {
 	cout << endl;
 	cout << "Description     " << "From Node    " << "To Node    " << "Dijikstra's  ";
@@ -126,7 +126,7 @@ void GraphM::displayAll()
 }
 
 
-void GraphM::insertEdge(int firstNode, int secondNode, int weight)
+void graphm::insertEdge(int firstNode, int secondNode, int weight)
 {
 
 	if (weight < 0 || weight > INT_MAX) // check for valid weight
@@ -137,12 +137,12 @@ void GraphM::insertEdge(int firstNode, int secondNode, int weight)
 	C[firstNode][secondNode] = weight; //insert cost into specified index
 }
 
-void GraphM::removeEdge(int firstNode, int secondNode)
+void graphm::removeEdge(int firstNode, int secondNode)
 {
 	insertEdge(firstNode, secondNode, INT_MAX); // just need to update the cost to be infinity
 }
 
-void GraphM::buildGraph(ifstream& file)
+void graphm::buildGraph(ifstream& file)
 {
 	int firstNode = 0;
 	int secondNode = 0;
@@ -168,7 +168,7 @@ void GraphM::buildGraph(ifstream& file)
 	}
 }
 
-void GraphM::findShortestPath()
+void graphm::findShortestPath()
 {
 	int v = 0;  // Minimum Node that has not been marked
 	for (int source = 1; source <= size; source++)
@@ -206,7 +206,7 @@ void GraphM::findShortestPath()
 	}*/
 }
 
-int GraphM::minimumDistance(int x)
+int graphm::minimumDistance(int x)
 {
 	int min = INT_MAX;
 	int result = 1;

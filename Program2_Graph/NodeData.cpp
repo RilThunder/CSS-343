@@ -1,16 +1,16 @@
 #include "nodedata.h"
 
 //------------------- constructors/destructor  -------------------------------
-NodeData::NodeData() { data = ""; }                         // default
+nodedata::nodedata() { data = ""; }                         // default
 
-NodeData::~NodeData() { }            // needed so strings are deleted properly
+nodedata::~nodedata() { }            // needed so strings are deleted properly
 
-NodeData::NodeData(const NodeData& nd) { data = nd.data; }  // copy
+nodedata::nodedata(const nodedata& nd) { data = nd.data; }  // copy
 
-NodeData::NodeData(const string& s) { data = s; }    // cast string to NodeData
+nodedata::nodedata(const string& s) { data = s; }    // cast string to NodeData
 
 //------------------------- operator= ----------------------------------------
-NodeData& NodeData::operator=(const NodeData& rhs) {
+nodedata& nodedata::operator=(const nodedata& rhs) {
 	if (this != &rhs) {
 		data = rhs.data;
 	}
@@ -18,41 +18,41 @@ NodeData& NodeData::operator=(const NodeData& rhs) {
 }
 
 //------------------------- operator==,!= ------------------------------------
-bool NodeData::operator==(const NodeData& rhs) const {
+bool nodedata::operator==(const nodedata& rhs) const {
 	return data == rhs.data;
 }
 
-bool NodeData::operator!=(const NodeData& rhs) const {
+bool nodedata::operator!=(const nodedata& rhs) const {
 	return data != rhs.data;
 }
 
 //------------------------ operator<,>,<=,>= ---------------------------------
-bool NodeData::operator<(const NodeData& rhs) const {
+bool nodedata::operator<(const nodedata& rhs) const {
 	return data < rhs.data;
 }
 
-bool NodeData::operator>(const NodeData& rhs) const {
+bool nodedata::operator>(const nodedata& rhs) const {
 	return data > rhs.data;
 }
 
-bool NodeData::operator<=(const NodeData& rhs) const {
+bool nodedata::operator<=(const nodedata& rhs) const {
 	return data <= rhs.data;
 }
 
-bool NodeData::operator>=(const NodeData& rhs) const {
+bool nodedata::operator>=(const nodedata& rhs) const {
 	return data >= rhs.data;
 }
 
 //------------------------------ setData -------------------------------------
 // returns true if the data is set, false when bad data, i.e., is eof
 
-bool NodeData::setData(ifstream &file) {
+bool nodedata::setData(ifstream &file) {
 	getline(file, data);
 	return true; 
 }
 
 //-------------------------- operator<< --------------------------------------
-ostream& operator<<(ostream& output, const NodeData& nd) {
+ostream& operator<<(ostream& output, const nodedata& nd) {
 	output << nd.data;
 	return output;
 }
