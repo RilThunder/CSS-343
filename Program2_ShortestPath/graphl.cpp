@@ -1,5 +1,5 @@
 #include "graphl.h"
-#include "nodedata.h"
+
 
 
 graphl::graphl()
@@ -23,15 +23,9 @@ void graphl::buildGraph(ifstream & file)
 {
 	int firstNode = 0;
 	int secondNode = 0;
-	
-	string result = "";
-	getline(file, result);
-	if (result == "")
-	{
-		return; // Reached the end of file 
-	}
-	size = stoi(result); // get the first Number
-	result = "";
+	string result;
+	size = file.get() - '0'; // get the first Number
+	getline(file, result);// skip that number
 	for (int i = 1; i <= size; i++)
 	{
 		nodedata* newNode = new nodedata();
@@ -93,12 +87,12 @@ void graphl::helperOutPut()
 {
 	for (int i = 1; i <= size; i++)
 	{
-		cout << "Node " << i  << "            " << *data[i].data << endl;
+		cout << "Node " << i << "            " << *data[i].data << endl;
 		EdgeNode *x = data[i].edgeHead;
 		while (x != NULL)
 		{
-	
-			cout  << "    edge "  <<i << " " << x->adjGraphNode << endl;
+
+			cout << "    edge " << i << " " << x->adjGraphNode << endl;
 			x = x->nextEdge;
 		}
 	}
@@ -127,7 +121,7 @@ void graphl::helperDFS(int x)
 		//data[count].visited = true;
 		info = info->nextEdge;
 	}
-	
+
 }
 
 
