@@ -104,11 +104,16 @@ void GraphL::helperDFS(int x)
 
 	}
 	EdgeNode *info = data[x].edgeHead;
+	if (info == NULL)
+	{
+		return;
+	}
 	int count = info->adjGraphNode;
 	cout << x;
 	while (info != NULL)
 	{
 		helperDFS(info->adjGraphNode);
+		//data[count].visited = true;
 		info = info->nextEdge;
 	}
 	data[count].visited = true;
