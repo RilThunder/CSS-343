@@ -1,3 +1,15 @@
+/**
+	Assignment 2: Implement Dijkstra's algorith and Depth-first search
+	Purpose: Get and process a text file, print out its path
+	Graphl.h Implemtation file
+
+	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
+	@version 1.1 January 22th,2017
+*/
+
+
+
+
 #ifndef _GRAPHL_H
 #define _GRAPHL_H
 #include "nodedata.h"
@@ -11,7 +23,17 @@ using namespace std;
 class graphl
 {
 public:
+	/**
+		This will be the default constructor for this Depth First Search Graph
+		It will initialize all value to default value
+	
+	*/
 	graphl();
+
+	/**
+		This is the destructor for this Depth First Search Graph
+		
+	*/
 	~graphl();
 
 	/**
@@ -54,10 +76,25 @@ private:
 
 	int size; // How many Nodes are there in the graph
 
+	/**
+		This function will be use to insert into the Graph
+		@param x The location of the item where it will be inserted
+
+		@param y The location of its adjacent Node
+	
+	*/
 	void insertGraphNode(int x, int y);
 
+	/**
+		This is the private helper method to print out the Node information
+		
+	*/
 	void helperOutPut();
 
+
+	/**
+		This is the private helper method to print out the Depth First Search
+	*/
 	void helperDFS(int x);
 
 

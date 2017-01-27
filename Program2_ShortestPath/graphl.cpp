@@ -1,3 +1,16 @@
+/**
+	Assignment 2: Implement Dijkstra's algorith and Depth-first search
+	Purpose: Get and process a text file, print out its Depth First Search 
+	graphl.cpp Implemtation file
+
+	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
+	@version 1.1 January 26th,2017
+*/
+
+
+
+
+
 #include "graphl.h"
 
 
@@ -7,6 +20,7 @@ graphl::graphl()
 	size = 0;
 	for (int i = 1; i < MAX_NODES; i++)
 	{
+		// Initilize to default value
 		// All Graph Node will have NULL value
 		data[i].edgeHead = NULL;
 		data[i].visited = false;
@@ -17,15 +31,21 @@ graphl::graphl()
 
 graphl::~graphl()
 {
+	// Need to implement
 }
 
 void graphl::buildGraph(ifstream & file)
 {
 	int firstNode = 0;
 	int secondNode = 0;
-	string result;
-	size = file.get() - '0'; // get the first Number
-	getline(file, result);// skip that number
+	string result = "";
+	getline(file, result); // Get how many Node are there in the text file
+	if (result == "") 
+	{
+		return; // Reached the end of file 
+	}
+	size = stoi(result); // get the first Number
+	result = "";
 	for (int i = 1; i <= size; i++)
 	{
 		nodedata* newNode = new nodedata();
@@ -47,7 +67,7 @@ void graphl::buildGraph(ifstream & file)
 
 void graphl::displayGraph()
 {
-	helperOutPut();
+	helperOutPut(); 
 }
 
 void graphl::depthFirstSearch()
@@ -55,6 +75,7 @@ void graphl::depthFirstSearch()
 	cout << "Depth First Search : ";
 	for (int i = 1; i <= size; i++)
 	{
+		// Go through everyNode to print out DFS
 		helperDFS(i);
 
 	}
@@ -88,10 +109,10 @@ void graphl::helperOutPut()
 	for (int i = 1; i <= size; i++)
 	{
 		cout << "Node " << i << "            " << *data[i].data << endl;
-		EdgeNode *x = data[i].edgeHead;
+		EdgeNode *x = data[i].edgeHead; // Print out the data
 		while (x != NULL)
 		{
-
+			// Print out its adjancen Node
 			cout << "    edge " << i << " " << x->adjGraphNode << endl;
 			x = x->nextEdge;
 		}
@@ -107,8 +128,8 @@ void graphl::helperDFS(int x)
 
 	}
 	cout << x << " ";
-	data[x].visited = true;
-	EdgeNode *info = data[x].edgeHead;
+	data[x].visited = true; // Visited this Node. Mark it
+	EdgeNode *info = data[x].edgeHead; // Explore the Neighboring Node
 	if (info == NULL)
 	{
 		return;
@@ -118,7 +139,7 @@ void graphl::helperDFS(int x)
 	while (info != NULL)
 	{
 		helperDFS(info->adjGraphNode);
-		//data[count].visited = true;
+		
 		info = info->nextEdge;
 	}
 
