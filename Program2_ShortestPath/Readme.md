@@ -243,7 +243,7 @@ Similar to Part 1, in the input data is provide in a file (data32.txt), the firs
 
 There may be several graphs, each having at most 100 nodes.  For example, Figure 1 (a) shows part of data from data32.txt (the data file you will be given) where it contains 5 nodes. For clarity, (b) shows a graph drawn based on data in (a). However, Figure 1 (b) is just for your reference. It’s not part of your input data or the output you need to produce. Figure 1 (c) shows the sample output where the last line is produced by calling depthFirstSearch function and the rest of them are produced by displayGraph. As you may see, edges in the input are always shown in reverse order in the output (see the NOTE in the Develop the class Section for more discussion). For this lab (including part 1) you may assume the input data file has correctly formatted, valid data. 
 
-![ScreenShot]
+![ScreenShot](https://github.com/RilThunder/CSS-343/blob/master/Program2_ShortestPath/image2.png)
 
 Supporting data types: 
 
