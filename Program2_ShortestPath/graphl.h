@@ -20,7 +20,7 @@
 using namespace std;
 
 #pragma once
-class graphl
+class GraphL
 {
 public:
 	/**
@@ -28,13 +28,13 @@ public:
 		It will initialize all value to default value
 	
 	*/
-	graphl();
+	GraphL();
 
 	/**
 		This is the destructor for this Depth First Search Graph
 		
 	*/
-	~graphl();
+	~GraphL();
 
 	/**
 	This function will take in a text file and construct a new graph out of it
@@ -94,6 +94,7 @@ private:
 
 	/**
 		This is the private helper method to print out the Depth First Search
+		@param x the location of the Node we are at
 	*/
 	void helperDFS(int x);
 

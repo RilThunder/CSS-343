@@ -3,7 +3,11 @@
 //------------------- constructors/destructor  -------------------------------
 nodedata::nodedata() { data = ""; }                         // default
 
-nodedata::~nodedata() { }            // needed so strings are deleted properly
+nodedata::~nodedata() 
+{ 
+
+
+}            // needed so strings are deleted properly
 
 nodedata::nodedata(const nodedata& nd) { data = nd.data; }  // copy
 

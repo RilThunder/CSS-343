@@ -21,7 +21,7 @@ using namespace std;
 int main() {
 	
 	// part 1
-	ifstream infile1("data31.txt");
+	ifstream infile1("dataUWB.txt");
 	if (!infile1) {
 		cout << "File could not be opened." << endl;
 		return 1;
@@ -29,7 +29,7 @@ int main() {
 
 	//for each graph, find the shortest path from every node to all other nodes
 	for (;;){
-		graphm G;
+		GraphM G;
 		G.buildGraph(infile1);
 		if (infile1.eof())
 			break;
@@ -49,12 +49,13 @@ int main() {
 
 	//for each graph, find the depth-first search ordering
 	for (;;) {
-		graphl G;
+		GraphL G;
 		G.buildGraph(infile2);
 		if (infile2.eof())
 			break;
 		G.displayGraph();
 		G.depthFirstSearch();    // find and display depth-first ordering to cout
+
 	}
 	
 	cout << endl;

@@ -1,10 +1,10 @@
 /**
-Assignment 2: Implement Dijkstra's algorith and Depth-first search
-Purpose: Get and process a text file, print out its path
-GraphM.h Header File
+	Assignment 2: Implement Dijkstra's algorith and Depth-first search
+	Purpose: Get and process a text file, print out its path
+	GraphM.h Header File
 
-@author Thuan Tran, CSSE Junior at the University of Washington Bothell
-@version 1.1 January 22th,2017
+	@author Thuan Tran, CSSE Junior at the University of Washington Bothell
+	@version 1.1 January 22th,2017
 */
 
 #ifndef _GRAPHM_H
@@ -17,7 +17,7 @@ GraphM.h Header File
 using namespace std;
 
 
-class graphm
+class GraphM
 {
 public:
 	/**
@@ -26,13 +26,13 @@ public:
 	The cost matrix will be infinity
 	the data member T is initialized to sets all dist to infinity, sets all visited to false, and sets all path to 0.
 	*/
-	graphm();
+	GraphM();
 
 	/**
 	This is the default constructor
 	Not implemented
 	*/
-	~graphm();
+	~GraphM();
 
 	/**
 	This function will take in a text file and construct a new graph out of it
@@ -87,11 +87,11 @@ private:
 	int size; // number of nodes in the graph
 	TableType T[MAXNODES][MAXNODES]; // stores visited, distance, path
 
-									 /**
-									 This helper method is used to print out the numeric path from one node to other node
-									 @param startNode the starting Node
-									 @param endNode the destination Node
-									 */
+     /**
+	 This helper method is used to print out the numeric path from one node to other node
+	 @param startNode the starting Node
+	 @param endNode the destination Node
+	 */
 	void getNumberPath(int startNode, int endNode);
 
 	/**

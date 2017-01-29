@@ -15,7 +15,7 @@
 
 
 
-graphl::graphl()
+GraphL::GraphL()
 {
 	size = 0;
 	for (int i = 1; i < MAX_NODES; i++)
@@ -29,12 +29,26 @@ graphl::graphl()
 }
 
 
-graphl::~graphl()
+GraphL::~GraphL()
 {
-	// Need to implement
+	for (int i = 1; i <= size; i++)
+	{
+		EdgeNode*x = data[i].edgeHead;
+		EdgeNode *prev = x;
+		while (x != NULL)
+		{
+			prev = x; // Save the current pointer to delete
+			x = x->nextEdge;
+			delete prev;
+			
+		}
+		data[i].edgeHead  = NULL;
+		data[i].visited = false;
+		delete data[i].data;
+	}
 }
 
-void graphl::buildGraph(ifstream & file)
+void GraphL::buildGraph(ifstream & file)
 {
 	int firstNode = 0;
 	int secondNode = 0;
@@ -65,12 +79,12 @@ void graphl::buildGraph(ifstream & file)
 	}
 }
 
-void graphl::displayGraph()
+void GraphL::displayGraph()
 {
 	helperOutPut(); 
 }
 
-void graphl::depthFirstSearch()
+void GraphL::depthFirstSearch()
 {
 	cout << "Depth First Search : ";
 	for (int i = 1; i <= size; i++)
@@ -82,7 +96,7 @@ void graphl::depthFirstSearch()
 	cout << endl;
 	return;
 }
-void graphl::insertGraphNode(int x, int y)
+void GraphL::insertGraphNode(int x, int y)
 {
 	if (x <= 0 || y <= 0 || x > 100 || y > 100) // Check for special cases
 	{
@@ -104,7 +118,7 @@ void graphl::insertGraphNode(int x, int y)
 	return;
 }
 
-void graphl::helperOutPut()
+void GraphL::helperOutPut()
 {
 	for (int i = 1; i <= size; i++)
 	{
@@ -120,7 +134,7 @@ void graphl::helperOutPut()
 
 }
 
-void graphl::helperDFS(int x)
+void GraphL::helperDFS(int x)
 {
 	if (data[x].visited)
 	{
