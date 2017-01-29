@@ -8,7 +8,7 @@ In this assignment you will implement Dijkstra's shortest path algorithm. Your c
 
     Find the lowest cost paths (through the findShortestPath function)  
 
-    Display the cost and path from every node to every other node (thought he displayAll function).  Another display routine (display function) should output one path in detail.  
+    Display the cost and path from every node to every other node (thought he displayAll function).  Another display routine (display    function) should output one path in detail.  
 
   
 
@@ -18,6 +18,7 @@ In the input data (e.g., data31.txt), the first line tells the number of nodes n
 
 For example, Figure 1 (a) shows part of data from data31.txt containing 5 nodes.  For clarity and as reference, Figure 1(b) shows a graph drawn based on data (you do not need to implement or output this graph, neither it is part of the input data). 
 
+![ScreenShot](https://github.com/RilThunder/CSS-343/blob/master/Program2_ShortestPath/image.png)
  
 
 You can assume for both parts of this lab, that the input data file has correctly formatted, valid data. 
