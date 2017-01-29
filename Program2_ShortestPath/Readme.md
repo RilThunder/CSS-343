@@ -189,11 +189,11 @@ PCC
 
   
 
-    display: uses cout to display the shortest distance with path info between the fromNode to toNode.  For the data in Figure 1, a call of G.display(1,4) is going to produce the following output (similar to):  
+display: uses cout to display the shortest distance with path info between the fromNode to toNode.  For the data in Figure 1, a call of G.display(1,4) is going to produce the following output (similar to):  
 
   
 
-   1       4      50          1 3 2 4 
+   1             4           50              1 3 2 4 
 
 Aurora and 85th 
 
@@ -206,8 +206,7 @@ Troll under Aurora bridge
   
 
  
-
-    Some utility functions may be needed. 
+Some utility functions may be needed. 
 
   
 
