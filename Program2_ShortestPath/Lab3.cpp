@@ -24,6 +24,7 @@ int main() {
 	ifstream infile1("dataUWB.txt");
 	if (!infile1) {
 		cout << "File could not be opened." << endl;
+		cout << "Test";
 		return 1;
 	}
 
