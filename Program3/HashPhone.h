@@ -11,6 +11,10 @@
 #ifndef PROGRAM3_HASHPHONE_H
 #define PROGRAM3_HASHPHONE_H
 
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 class HashPhone
 {
@@ -41,10 +45,10 @@ public:
 	 * @param number the phone number
 	 *
 	 */
-	int insert(string name , int number);
+	bool insert(string name , int number);
 
 private:
-	const int SIZE = 4177; // Size of the array
+	static const int SIZE = 4177; // Size of the array
 	Entry * hashTable[SIZE];
 	
 	/*
@@ -53,20 +57,24 @@ private:
 	 * Method: Add every char value in name in its original format (Not converted to decimal)
 	 * Then add every number in number
 	 */
-	int firstHash(string name , int number);
+	long firstHash(string name , int number);
 	
 	/*
 	 * This is an experiment hash function
 	 * Method: Append every char value in name and number (String concatination)
 	 */
-	int secondHash(string name , int number);
+	long secondHash(string name , int number);
 	
 	/*
 	 * Final method
 	 * Method: Turn every char value in name in to binary form, the same as number
 	 * Concatinate all of them together
 	 */
-	int finalHash(string name , int number);
+	long finalHash(string name , int number);
+	
+	
+	
+	
 };
 
 

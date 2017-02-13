@@ -11,44 +11,68 @@ HashPhone::~HashPhone()
 
 }
 
-int HashPhone::hash()
-{
-	return 0;
-}
 
-int HashPhone::insert(string name , int number)
+bool HashPhone::insert(string name , int number)
 {
 	Entry * newEntry = new Entry();
 	newEntry->name = name;
 	newEntry->number = number;
-	int index = finalHash(nullptr , 0);
+	int index = (int) (finalHash(name , number) % SIZE);
 	Entry * target = hashTable[index];
 	if ( target != NULL )
 	{
-		newEntry->nextEntry = target;
+		newEntry->nextEntry = target; // Put the new element at the top of the bucket
 		
 	}
 	hashTable[index] = newEntry;
+	return true;
 }
 
-int HashPhone::finalHash(string name , int number)
+long HashPhone::finalHash(string name , int number)
 {
-	return 0;
+	unsigned result = 0;
+	for ( char x : name )
+	{
+		result = 33 * result + (x - '0');
+	}
+	string numberRepresent = to_string(number);
+	for ( char x: numberRepresent )
+	{
+		result = 33 * result + (x - '0');
+		
+	}
+	return result;
 }
 
-int HashPhone::firstHash(string name , int number)
+long HashPhone::firstHash(string name , int number)
 {
 	long result = 0;
 	for ( char x : name )
 	{
-		result = result + x;
+		result = result + x - '0';
 	}
-	return (int) result % SIZE;
+	string numberRepresent = to_string(number);
+	for ( char x: numberRepresent )
+	{
+		result = result + x - '0';
+	}
+	return result;
 }
 
-int HashPhone::secondHash(string name , int number)
+long HashPhone::secondHash(string name , int number)
 {
-	return 0;
+	string result = "";
+	for ( char x: name )
+	{
+		result = result + to_string(x);
+		
+	}
+	string numberRepresent = to_string(number);
+	for ( char x: numberRepresent )
+	{
+		result = result + to_string(x);
+	}
+	return (long) atoi(result.c_str()); // Convert the string back to integer
 }
 
 
