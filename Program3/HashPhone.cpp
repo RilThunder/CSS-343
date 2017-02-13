@@ -4,7 +4,9 @@
 #include "HashPhone.h"
 
 HashPhone::HashPhone()
-{}
+{
+	Entry * hashTable = new Entry[SIZE];
+}
 
 HashPhone::~HashPhone()
 {
@@ -18,13 +20,13 @@ bool HashPhone::insert(string name , int number)
 	newEntry->name = name;
 	newEntry->number = number;
 	int index = (int) (finalHash(name , number) % SIZE);
-	Entry * target = hashTable[index];
+	Entry * target = &hashTable[index];
 	if ( target != NULL )
 	{
 		newEntry->nextEntry = target; // Put the new element at the top of the bucket
 		
 	}
-	hashTable[index] = newEntry;
+	hashTable[index] = *newEntry;
 	return true;
 }
 
@@ -33,12 +35,14 @@ long HashPhone::finalHash(string name , int number)
 	unsigned result = 0;
 	for ( char x : name )
 	{
-		result = 33 * result + (x - '0');
+		result = 33 * result + (x);
+		result = result % SIZE;
 	}
 	string numberRepresent = to_string(number);
 	for ( char x: numberRepresent )
 	{
 		result = 33 * result + (x - '0');
+		result = result % SIZE;
 		
 	}
 	return result;

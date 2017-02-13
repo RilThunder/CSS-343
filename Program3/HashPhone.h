@@ -49,7 +49,7 @@ public:
 
 private:
 	static const int SIZE = 4177; // Size of the array
-	Entry * hashTable[SIZE];
+	Entry * hashTable;
 	
 	/*
 	 * This is an experiement hash function
