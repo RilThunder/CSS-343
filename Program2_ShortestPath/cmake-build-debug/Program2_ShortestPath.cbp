@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Program2_ShortestPath"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program2_ShortestPath">
+				<Option output="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Program2_ShortestPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program2_ShortestPath"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program2_ShortestPath/fast">
+				<Option output="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Program2_ShortestPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program2_ShortestPath/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program2_ShortestPath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/Lab3.cpp">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/data31.txt">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/data32.txt">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/dataUWB.txt">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/graphl.cpp">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/graphl.h">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/graphm.cpp">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/graphm.h">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/image.png">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/image2.png">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/lab3output.txt">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/nodedata.cpp">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/nodedata.h">
+			<Option target="Program2_ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program2_ShortestPath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

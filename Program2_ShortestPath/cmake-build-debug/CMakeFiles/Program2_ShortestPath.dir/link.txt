@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Program2_ShortestPath.dir/graphl.cpp.o CMakeFiles/Program2_ShortestPath.dir/graphm.cpp.o CMakeFiles/Program2_ShortestPath.dir/Lab3.cpp.o CMakeFiles/Program2_ShortestPath.dir/nodedata.cpp.o  -o Program2_ShortestPath 

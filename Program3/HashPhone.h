@@ -25,7 +25,7 @@ class HashPhone
 	struct Entry
 	{
 		string name;
-		long number;
+		string number; // Prevent overflow
 		Entry * nextEntry;
 	};
 public:
@@ -45,11 +45,11 @@ public:
 	 * @param number the phone number
 	 *
 	 */
-	bool insert(string name , int number);
+	bool insert(string name , string number);
 
 private:
 	static const int SIZE = 4177; // Size of the array
-	Entry * hashTable;
+	Entry * hashTable[SIZE];
 	
 	/*
 	 * This is an experiement hash function
@@ -57,20 +57,20 @@ private:
 	 * Method: Add every char value in name in its original format (Not converted to decimal)
 	 * Then add every number in number
 	 */
-	long firstHash(string name , int number);
+	long firstHash(string name , long number);
 	
 	/*
 	 * This is an experiment hash function
 	 * Method: Append every char value in name and number (String concatination)
 	 */
-	long secondHash(string name , int number);
+	long secondHash(string name , long number);
 	
 	/*
 	 * Final method
 	 * Method: Turn every char value in name in to binary form, the same as number
 	 * Concatinate all of them together
 	 */
-	long finalHash(string name , int number);
+	long finalHash(string name , long number);
 	
 	
 	

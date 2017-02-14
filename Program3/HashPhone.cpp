@@ -5,7 +5,7 @@
 
 HashPhone::HashPhone()
 {
-	Entry * hashTable = new Entry[SIZE];
+
 }
 
 HashPhone::~HashPhone()
@@ -14,23 +14,23 @@ HashPhone::~HashPhone()
 }
 
 
-bool HashPhone::insert(string name , int number)
+bool HashPhone::insert(string name , string number)
 {
 	Entry * newEntry = new Entry();
 	newEntry->name = name;
 	newEntry->number = number;
-	int index = (int) (finalHash(name , number) % SIZE);
-	Entry * target = &hashTable[index];
+	int index = finalHash(name , atoi(number.c_str())) % SIZE;
+	Entry * target = hashTable[index];
 	if ( target != NULL )
 	{
 		newEntry->nextEntry = target; // Put the new element at the top of the bucket
 		
 	}
-	hashTable[index] = *newEntry;
+	hashTable[index] = newEntry;
 	return true;
 }
 
-long HashPhone::finalHash(string name , int number)
+long HashPhone::finalHash(string name , long number)
 {
 	unsigned result = 0;
 	for ( char x : name )
@@ -48,7 +48,7 @@ long HashPhone::finalHash(string name , int number)
 	return result;
 }
 
-long HashPhone::firstHash(string name , int number)
+long HashPhone::firstHash(string name , long number)
 {
 	long result = 0;
 	for ( char x : name )
@@ -63,7 +63,7 @@ long HashPhone::firstHash(string name , int number)
 	return result;
 }
 
-long HashPhone::secondHash(string name , int number)
+long HashPhone::secondHash(string name , long number)
 {
 	string result = "";
 	for ( char x: name )
