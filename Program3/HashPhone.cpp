@@ -1,6 +1,6 @@
 
 
-#include <cstdio>
+
 #include "HashPhone.h"
 
 HashPhone::HashPhone()
@@ -77,6 +77,28 @@ long HashPhone::secondHash(string name , long number)
 		result = result + to_string(x);
 	}
 	return (long) atoi(result.c_str()); // Convert the string back to integer
+}
+
+void HashPhone::calculateVariance()
+{
+	for ( int i = 0 ; i < SIZE ; i++ )
+	{
+		Entry * x = hashTable[i];
+		int count = 0;
+		while ( x != NULL )
+		{
+			count++;
+			x = x->nextEntry;
+		}
+		statistic.insert(i + 1 , count); // To match with natural ordering
+	}
+	ofstream outfile("Variance.txt");
+	double meanSquareError;
+	for ( int i = 1 ; i <= SIZE ; i++ )
+	{
+	
+	}
+	
 }
 
 
