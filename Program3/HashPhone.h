@@ -14,6 +14,7 @@
 #include <string>
 #include <iostream>
 #include <cstdio>
+#include <math.h>
 #include <fstream>
 
 #include <map> // This is not used to implement the hash function. This is only used for calculating the variance
@@ -61,7 +62,7 @@ private:
 	static const int SIZE = 4177; // Size of the array
 	Entry * hashTable[SIZE];
 	map<int , int> statistic;
-	static const double AVERAGE = 46332.0 / SIZE;
+	static constexpr double AVERAGE = 46332.0 / SIZE;
 	/*
 	 * This is an experiement hash function
 	 * It create the index where to put the Entry

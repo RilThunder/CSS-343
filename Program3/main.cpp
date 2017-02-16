@@ -57,6 +57,7 @@ int main()
 		{
 			processString(line , *thePhone);
 		}
+		thePhone->calculateVariance();
 		phonebook.close(); // Close the file when done
 	} else
 	{

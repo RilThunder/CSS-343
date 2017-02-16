@@ -90,14 +90,18 @@ void HashPhone::calculateVariance()
 			count++;
 			x = x->nextEntry;
 		}
-		statistic.insert(i + 1 , count); // To match with natural ordering
+		statistic.insert({i + 1 , count}); // To match with natural ordering
 	}
 	ofstream outfile("Variance.txt");
-	double meanSquareError;
+	double meanSquareError = 0;
+	double x = AVERAGE;
 	for ( int i = 1 ; i <= SIZE ; i++ )
 	{
-	
+		meanSquareError = meanSquareError + pow((statistic.at(i) - x) , 2);
+		outfile << i + "\t" + statistic.at(i);
 	}
+	meanSquareError = meanSquareError / SIZE; // Pick the one with the lowest variance
+	cout << meanSquareError;
 	
 }
 
