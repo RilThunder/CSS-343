@@ -1,5 +1,5 @@
 /*
- * Program 3: Implement Hash Functions for a phone boook
+ * Program 3: Implement Hash Functions for a phone book
  * Purpose main.cpp : Driver and process the input
  * @author Thuan Tran, CSSE Junior at the University of Washington Bothell
  * February 12th, 2017
@@ -23,13 +23,13 @@ void processString(string line , HashPhone &thePhone)
 	{
 		if ( x == ',' )
 		{
-			lastname = result;
+			lastname = result; // ok we finished the last name
 			result = "";
 			continue;
 		}
 		if ( x == '(' || x == ')' || x == '-' )
 		{
-			if ( firstname == "" )
+			if ( firstname == "" ) // if we reach this part of number, we finished the first name
 			{
 				firstname = result;
 				result = "";
@@ -38,10 +38,11 @@ void processString(string line , HashPhone &thePhone)
 		}
 		if ( !isblank(x))
 		{
+			// append everything else
 			result = result + string(1 , x);
 		}
 	}
-	
+	// By this point, result should be the phone number
 	thePhone.insert(firstname + " " + lastname , result);
 	return;
 }
@@ -57,12 +58,16 @@ int main()
 		{
 			processString(line , *thePhone);
 		}
-		thePhone->calculateVariance();
+		// Uncomment the part below to calculate the variance and receive a text file to show the distribution
+		// You can also change the insert function in HashPhone.cpp and run again to see different result
+		// Only need to change the name of the method finalHash to firstHash or secondHash in insert
+		//	thePhone->calculateVariance();
 		phonebook.close(); // Close the file when done
 	} else
 	{
 		cout << "Unable to open file";
 	}
+	delete thePhone;
 	cout << "Finished";
 	return 0;
 }

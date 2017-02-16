@@ -4,6 +4,7 @@
  *  HashPhone.h
  *  Purpose: Implement several hash functions and determine which one the best
  *  Given 46,332 names and phone numbers, try to distribute them on 4177 entries
+ *  @version 1.1
  */
 
 
@@ -14,8 +15,8 @@
 #include <string>
 #include <iostream>
 #include <cstdio>
-#include <math.h>
-#include <fstream>
+#include <math.h>  // Use Pow and Sqrt function
+#include <fstream> // Write to a text file
 
 #include <map> // This is not used to implement the hash function. This is only used for calculating the variance
 
@@ -54,15 +55,19 @@ public:
 	
 	/*
 	 * THis function is used to calculate the variance
+	 * This would go through every element of the hashTable to count how many are there in each
+	 * It will then store the value inside a map to later calculate the variance
+	 * This is optional but if you want to have a text file to show the result then sure
 	 */
 	void calculateVariance();
 	
 	
 private:
 	static const int SIZE = 4177; // Size of the array
-	Entry * hashTable[SIZE];
-	map<int , int> statistic;
 	static constexpr double AVERAGE = 46332.0 / SIZE;
+	Entry * hashTable[SIZE];
+	map<int , int> statistic; // This is only used for statistic,not for implementation
+	
 	/*
 	 * This is an experiement hash function
 	 * It create the index where to put the Entry
