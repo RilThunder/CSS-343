@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <fstream>
+
 #include "HashPhone.h"
 
 using namespace std;
@@ -61,7 +62,7 @@ int main()
 		// Uncomment the part below to calculate the variance and receive a text file to show the distribution
 		// You can also change the insert function in HashPhone.cpp and run again to see different result
 		// Only need to change the name of the method finalHash to firstHash or secondHash in insert
-		//	thePhone->calculateVariance();
+		thePhone->calculateVariance();
 		phonebook.close(); // Close the file when done
 	} else
 	{

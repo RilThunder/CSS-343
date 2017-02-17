@@ -15,10 +15,10 @@
 #include <string>
 #include <iostream>
 #include <cstdio>
+#include <vector>
 #include <math.h>  // Use Pow and Sqrt function
 #include <fstream> // Write to a text file
 
-#include <map> // This is not used to implement the hash function. This is only used for calculating the variance
 
 using namespace std;
 
@@ -66,7 +66,7 @@ private:
 	static const int SIZE = 4177; // Size of the array
 	static constexpr double AVERAGE = 46332.0 / SIZE;
 	Entry * hashTable[SIZE];
-	map<int , int> statistic; // This is only used for statistic,not for implementation
+	
 	
 	/*
 	 * This is an experiement hash function
