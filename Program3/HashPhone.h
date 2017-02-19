@@ -88,10 +88,6 @@ private:
 	 * Concatinate all of them together
 	 */
 	long finalHash(string name , long number);
-	
-	
-	
-	
 };
 
 

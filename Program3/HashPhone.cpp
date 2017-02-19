@@ -5,11 +5,6 @@
  * February 12th, 2017
  * @version 1.1
  */
-
-
-
-
-#include <vector>
 #include "HashPhone.h"
 
 HashPhone::HashPhone()
@@ -106,8 +101,6 @@ void HashPhone::calculateVariance()
 	
 	vector<int> chainLength(SIZE + 1);
 	vector<int> statistic(SIZE + 1);
-	//map<int , int> statistic; // This is only used for statistic,not for implementation
-	//map<int, int> chainLength;
 	// loop through the table to calculate frequency of each index
 	for ( int i = 0 ; i < SIZE ; i++ )
 	{
@@ -120,8 +113,7 @@ void HashPhone::calculateVariance()
 			
 		}
 		statistic.at(i + 1) = count; //  Save how many elements at a index of the table;
-		//chainLength[count].secondKey = chainLength[count].secondKey +1; // Save the frequency of the distribution
-		//chainLength[count].firstKey = count;
+		
 		chainLength.at(count) = chainLength.at(count) + 1;
 	}
 	ofstream outfile;
@@ -130,6 +122,7 @@ void HashPhone::calculateVariance()
 	distribution.open("Distribution.txt");
 	double meanSquareError = 0;
 	double x = AVERAGE;
+	
 	for ( int i = 1 ; i <= SIZE ; i++ )
 	{
 		meanSquareError = meanSquareError + pow((statistic.at(i) - x) , 2); // Mean Square Error
@@ -144,13 +137,12 @@ void HashPhone::calculateVariance()
 			continue;
 		}
 		distribution << to_string(i) + " " + to_string(chainLength.at(i)) + "\n";
-//		result = result + x.first * x.second;
+		
 		result = result + (i) * chainLength.at(i);
 	}
 	
 	meanSquareError = meanSquareError / SIZE; // Pick the one with the lowest standard deviation
 	outfile << "Variance is : " + to_string(sqrt(meanSquareError));
-	cout << result;
 }
 
 
