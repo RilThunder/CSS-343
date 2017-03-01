@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thuan/CSS-343/Program3/HashPhone.cpp
+HashPhone.h
+/home/thuan/CSS-343/Program3/HashPhone.h
+
+/home/thuan/CSS-343/Program3/HashPhone.h
+string
+-
+iostream
+-
+cstdio
+-
+vector
+-
+math.h
+-
+fstream
+-
+
+/home/thuan/CSS-343/Program3/main.cpp
+iostream
+-
+fstream
+-
+HashPhone.h
+/home/thuan/CSS-343/Program3/HashPhone.h
+
