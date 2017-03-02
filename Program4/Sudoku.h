@@ -5,21 +5,27 @@
 #ifndef UNTITLED_SUDOKU_H
 #define UNTITLED_SUDOKU_H
 
-#include <ostream>
+
 #include "Puzzle.h"
 
 class Sudoku: public Puzzle
 {
-
-private:
-
 public:
 	Sudoku();
+protected:
+	void helpOutput(ostream &output) const;
+	void helpInput(istream &input);
 	
-	friend ostream &operator<<(ostream &os , const Puzzle &sudoku);
+
+private:
+	struct Entry
+	{
+		int value;
+		bool isValue;
+	};
+	Entry representation[9][9];
 	
-	
-	
+
 };
 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Program4.dir/main.cpp.o CMakeFiles/Program4.dir/Puzzle.cpp.o CMakeFiles/Program4.dir/Sudoku.cpp.o  -o Program4 

@@ -6,9 +6,8 @@
 #define UNTITLED_PUZZLE_H
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
-
-
 
 class Puzzle
 {
@@ -17,18 +16,15 @@ public:
 	
 	virtual ~Puzzle();
 	
-	/*
-	 * This function is used to print out the content of the Puzzle
-	 */
-	virtual friend ostream& operator<<(ostream &output, const Puzzle &thePuzzle);
+	friend ostream& operator<<(ostream &output, const Puzzle &thePuzzle);
 	
+	friend istream& operator>>(istream &input, Puzzle &theFile);
+
+protected:
+	virtual void helpOutput(ostream &output) const;
+	virtual void helpInput(istream &input);
 	
-	/*
-	 * This function is used to to create a puzzle from a text file
-	 * @param theFile the file of the text file
-	 */
-	virtual friend ostream& operator>>(istream &input, const ofstream &theFile);
-private:
+
 
 
 };

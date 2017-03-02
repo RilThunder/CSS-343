@@ -11,3 +11,14 @@ Puzzle::~Puzzle()
 
 Puzzle::Puzzle()
 {}
+
+ostream & operator<<(ostream & output, const Puzzle & thePuzzle)
+{
+	thePuzzle.helpOutput(output);
+	return output;
+}
+istream& operator>>(istream &input, Puzzle &theFile)
+{
+	theFile.helpInput(input);
+	return input;
+}
