@@ -11,22 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04298ecd-f8a6-4347-8521-f4fdb19c2eb1" name="Default" comment="Created Virtual Helper method for I/O Stream">
+    <list default="true" id="04298ecd-f8a6-4347-8521-f4fdb19c2eb1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/Program4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fitness.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fitness.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reproduction.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reproduction.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SudokuFitness.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SudokuFitness.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SudokuOffspring.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SudokuOffspring.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Puzzle.cpp" afterPath="$PROJECT_DIR$/Puzzle.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Puzzle.h" afterPath="$PROJECT_DIR$/Puzzle.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoku.cpp" afterPath="$PROJECT_DIR$/Sudoku.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoku.h" afterPath="$PROJECT_DIR$/Sudoku.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program4.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program4.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake" />
@@ -39,7 +26,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -424,7 +410,7 @@
       <workItem from="1488588128510" duration="239000" />
       <workItem from="1488588390227" duration="497000" />
       <workItem from="1488604356891" duration="4718000" />
-      <workItem from="1488672796492" duration="9732000" />
+      <workItem from="1488672796492" duration="9754000" />
     </task>
     <task id="LOCAL-00001" summary="Created Program4">
       <created>1488355227176</created>
@@ -454,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488526835684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created Virtual Helper method for I/O Stream">
+      <created>1488682995393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488682995393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28157000" />
+    <option name="totallyTimeSpent" value="28179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,6 +510,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Created Program4" />
     <MESSAGE value="Created interface for Puzzle" />
