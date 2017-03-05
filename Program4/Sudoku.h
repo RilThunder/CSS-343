@@ -5,17 +5,22 @@
 #ifndef UNTITLED_SUDOKU_H
 #define UNTITLED_SUDOKU_H
 
+#include <vector>
 
 #include "Puzzle.h"
 
-class Sudoku: public Puzzle
+class Sudoku : public Puzzle
 {
 public:
 	Sudoku();
+	
+	vector<vector<int>> getSudoku();
+
 protected:
 	void helpOutput(ostream &output) const;
-	void helpInput(istream &input);
 	
+	void helpInput(istream &input);
+
 
 private:
 	struct Entry
@@ -25,7 +30,7 @@ private:
 	};
 	Entry representation[9][9];
 	
-
+	
 };
 
 

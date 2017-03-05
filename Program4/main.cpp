@@ -1,7 +1,17 @@
 #include <iostream>
+#include "Puzzle.h"
+#include "Sudoku.h"
+#include "Fitness.h"
+#include "SudokuFitness.h"
+
+using namespace std;
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+	Puzzle * a = new Sudoku();
+	cin >> *a;
+	cout << *a;
+	Fitness * fit = new SudokuFitness();
+	cout << fit->howFit(*a);
+	delete fit;
 }

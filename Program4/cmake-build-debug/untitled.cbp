@@ -84,16 +84,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/thuan/CSS-343/Program4/Fitness.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/Fitness.h">
+			<Option target="Program4"/>
+		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Puzzle.cpp">
 			<Option target="Program4"/>
 		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Puzzle.h">
 			<Option target="Program4"/>
 		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/Reproduction.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/Reproduction.h">
+			<Option target="Program4"/>
+		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Sudoku.cpp">
 			<Option target="Program4"/>
 		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Sudoku.h">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFitness.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFitness.h">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuOffspring.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuOffspring.h">
 			<Option target="Program4"/>
 		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/main.cpp">

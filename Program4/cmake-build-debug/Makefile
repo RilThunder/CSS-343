@@ -123,6 +123,33 @@ Program4/fast:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/build
 .PHONY : Program4/fast
 
+Fitness.o: Fitness.cpp.o
+
+.PHONY : Fitness.o
+
+# target to build an object file
+Fitness.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Fitness.cpp.o
+.PHONY : Fitness.cpp.o
+
+Fitness.i: Fitness.cpp.i
+
+.PHONY : Fitness.i
+
+# target to preprocess a source file
+Fitness.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Fitness.cpp.i
+.PHONY : Fitness.cpp.i
+
+Fitness.s: Fitness.cpp.s
+
+.PHONY : Fitness.s
+
+# target to generate assembly for a file
+Fitness.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Fitness.cpp.s
+.PHONY : Fitness.cpp.s
+
 Puzzle.o: Puzzle.cpp.o
 
 .PHONY : Puzzle.o
@@ -150,6 +177,33 @@ Puzzle.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Puzzle.cpp.s
 .PHONY : Puzzle.cpp.s
 
+Reproduction.o: Reproduction.cpp.o
+
+.PHONY : Reproduction.o
+
+# target to build an object file
+Reproduction.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Reproduction.cpp.o
+.PHONY : Reproduction.cpp.o
+
+Reproduction.i: Reproduction.cpp.i
+
+.PHONY : Reproduction.i
+
+# target to preprocess a source file
+Reproduction.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Reproduction.cpp.i
+.PHONY : Reproduction.cpp.i
+
+Reproduction.s: Reproduction.cpp.s
+
+.PHONY : Reproduction.s
+
+# target to generate assembly for a file
+Reproduction.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Reproduction.cpp.s
+.PHONY : Reproduction.cpp.s
+
 Sudoku.o: Sudoku.cpp.o
 
 .PHONY : Sudoku.o
@@ -176,6 +230,60 @@ Sudoku.s: Sudoku.cpp.s
 Sudoku.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Sudoku.cpp.s
 .PHONY : Sudoku.cpp.s
+
+SudokuFitness.o: SudokuFitness.cpp.o
+
+.PHONY : SudokuFitness.o
+
+# target to build an object file
+SudokuFitness.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFitness.cpp.o
+.PHONY : SudokuFitness.cpp.o
+
+SudokuFitness.i: SudokuFitness.cpp.i
+
+.PHONY : SudokuFitness.i
+
+# target to preprocess a source file
+SudokuFitness.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFitness.cpp.i
+.PHONY : SudokuFitness.cpp.i
+
+SudokuFitness.s: SudokuFitness.cpp.s
+
+.PHONY : SudokuFitness.s
+
+# target to generate assembly for a file
+SudokuFitness.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFitness.cpp.s
+.PHONY : SudokuFitness.cpp.s
+
+SudokuOffspring.o: SudokuOffspring.cpp.o
+
+.PHONY : SudokuOffspring.o
+
+# target to build an object file
+SudokuOffspring.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuOffspring.cpp.o
+.PHONY : SudokuOffspring.cpp.o
+
+SudokuOffspring.i: SudokuOffspring.cpp.i
+
+.PHONY : SudokuOffspring.i
+
+# target to preprocess a source file
+SudokuOffspring.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuOffspring.cpp.i
+.PHONY : SudokuOffspring.cpp.i
+
+SudokuOffspring.s: SudokuOffspring.cpp.s
+
+.PHONY : SudokuOffspring.s
+
+# target to generate assembly for a file
+SudokuOffspring.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuOffspring.cpp.s
+.PHONY : SudokuOffspring.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +321,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Program4"
+	@echo "... Fitness.o"
+	@echo "... Fitness.i"
+	@echo "... Fitness.s"
 	@echo "... Puzzle.o"
 	@echo "... Puzzle.i"
 	@echo "... Puzzle.s"
+	@echo "... Reproduction.o"
+	@echo "... Reproduction.i"
+	@echo "... Reproduction.s"
 	@echo "... Sudoku.o"
 	@echo "... Sudoku.i"
 	@echo "... Sudoku.s"
+	@echo "... SudokuFitness.o"
+	@echo "... SudokuFitness.i"
+	@echo "... SudokuFitness.s"
+	@echo "... SudokuOffspring.o"
+	@echo "... SudokuOffspring.i"
+	@echo "... SudokuOffspring.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
