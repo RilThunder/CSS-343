@@ -177,6 +177,33 @@ Puzzle.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Puzzle.cpp.s
 .PHONY : Puzzle.cpp.s
 
+PuzzleFactory.o: PuzzleFactory.cpp.o
+
+.PHONY : PuzzleFactory.o
+
+# target to build an object file
+PuzzleFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/PuzzleFactory.cpp.o
+.PHONY : PuzzleFactory.cpp.o
+
+PuzzleFactory.i: PuzzleFactory.cpp.i
+
+.PHONY : PuzzleFactory.i
+
+# target to preprocess a source file
+PuzzleFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/PuzzleFactory.cpp.i
+.PHONY : PuzzleFactory.cpp.i
+
+PuzzleFactory.s: PuzzleFactory.cpp.s
+
+.PHONY : PuzzleFactory.s
+
+# target to generate assembly for a file
+PuzzleFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/PuzzleFactory.cpp.s
+.PHONY : PuzzleFactory.cpp.s
+
 Reproduction.o: Reproduction.cpp.o
 
 .PHONY : Reproduction.o
@@ -230,6 +257,33 @@ Sudoku.s: Sudoku.cpp.s
 Sudoku.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Sudoku.cpp.s
 .PHONY : Sudoku.cpp.s
+
+SudokuFactory.o: SudokuFactory.cpp.o
+
+.PHONY : SudokuFactory.o
+
+# target to build an object file
+SudokuFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFactory.cpp.o
+.PHONY : SudokuFactory.cpp.o
+
+SudokuFactory.i: SudokuFactory.cpp.i
+
+.PHONY : SudokuFactory.i
+
+# target to preprocess a source file
+SudokuFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFactory.cpp.i
+.PHONY : SudokuFactory.cpp.i
+
+SudokuFactory.s: SudokuFactory.cpp.s
+
+.PHONY : SudokuFactory.s
+
+# target to generate assembly for a file
+SudokuFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuFactory.cpp.s
+.PHONY : SudokuFactory.cpp.s
 
 SudokuFitness.o: SudokuFitness.cpp.o
 
@@ -327,12 +381,18 @@ help:
 	@echo "... Puzzle.o"
 	@echo "... Puzzle.i"
 	@echo "... Puzzle.s"
+	@echo "... PuzzleFactory.o"
+	@echo "... PuzzleFactory.i"
+	@echo "... PuzzleFactory.s"
 	@echo "... Reproduction.o"
 	@echo "... Reproduction.i"
 	@echo "... Reproduction.s"
 	@echo "... Sudoku.o"
 	@echo "... Sudoku.i"
 	@echo "... Sudoku.s"
+	@echo "... SudokuFactory.o"
+	@echo "... SudokuFactory.i"
+	@echo "... SudokuFactory.s"
 	@echo "... SudokuFitness.o"
 	@echo "... SudokuFitness.i"
 	@echo "... SudokuFitness.s"

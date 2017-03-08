@@ -6,9 +6,12 @@
 #define UNTITLED_SUDOKUOFFSPRING_H
 
 
-class SudokuOffspring
-{
+#include "Reproduction.h"
 
+class SudokuOffspring : public Reproduction
+{
+	Puzzle * makeOffspring(Puzzle &thePuzzle);
+	
 };
 
 

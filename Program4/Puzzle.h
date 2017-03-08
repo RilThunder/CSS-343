@@ -27,12 +27,7 @@ public:
 	virtual void helpInput(istream &input) = 0;
 
 
-/*
-protected:
-	virtual void helpOutput(ostream &output) const;
-	virtual void helpInput(istream &input);
-	*/
-	
+
 };
 
 

@@ -96,6 +96,12 @@
 		<Unit filename="/home/thuan/CSS-343/Program4/Puzzle.h">
 			<Option target="Program4"/>
 		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/PuzzleFactory.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/PuzzleFactory.h">
+			<Option target="Program4"/>
+		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Reproduction.cpp">
 			<Option target="Program4"/>
 		</Unit>
@@ -106,6 +112,12 @@
 			<Option target="Program4"/>
 		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/Sudoku.h">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFactory.cpp">
+			<Option target="Program4"/>
+		</Unit>
+		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFactory.h">
 			<Option target="Program4"/>
 		</Unit>
 		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFitness.cpp">

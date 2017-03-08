@@ -6,9 +6,11 @@
 #define UNTITLED_REPRODUCTION_H
 
 
+#include "Puzzle.h"
+#include <vector>
 class Reproduction
 {
-
+	virtual Puzzle* makeOffspring(Puzzle &thePuzzle) = 0;
 };
 
 

@@ -8,6 +8,8 @@ CMakeFiles/Program4.dir/Fitness.cpp.o
 CMakeFiles/Program4.dir/Puzzle.cpp.o
  /home/thuan/CSS-343/Program4/Puzzle.cpp
  /home/thuan/CSS-343/Program4/Puzzle.h
+CMakeFiles/Program4.dir/Reproduction.cpp.o
+ /home/thuan/CSS-343/Program4/Reproduction.cpp
 CMakeFiles/Program4.dir/Sudoku.cpp.o
  /home/thuan/CSS-343/Program4/Puzzle.h
  /home/thuan/CSS-343/Program4/Sudoku.cpp
@@ -18,6 +20,12 @@ CMakeFiles/Program4.dir/SudokuFitness.cpp.o
  /home/thuan/CSS-343/Program4/Sudoku.h
  /home/thuan/CSS-343/Program4/SudokuFitness.cpp
  /home/thuan/CSS-343/Program4/SudokuFitness.h
+CMakeFiles/Program4.dir/SudokuOffspring.cpp.o
+ /home/thuan/CSS-343/Program4/Puzzle.h
+ /home/thuan/CSS-343/Program4/Reproduction.h
+ /home/thuan/CSS-343/Program4/Sudoku.h
+ /home/thuan/CSS-343/Program4/SudokuOffspring.cpp
+ /home/thuan/CSS-343/Program4/SudokuOffspring.h
 CMakeFiles/Program4.dir/main.cpp.o
  /home/thuan/CSS-343/Program4/Fitness.h
  /home/thuan/CSS-343/Program4/Puzzle.h
