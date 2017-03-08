@@ -16,11 +16,14 @@ public:
 	
 	vector<vector<int>> getSudoku();
 
-protected:
+
 	void helpOutput(ostream &output) const;
 	
 	void helpInput(istream &input);
 
+	void insert(int value, bool isValue, int row, int column);
+	
+	bool isValue(int row, int column);
 
 private:
 	struct Entry

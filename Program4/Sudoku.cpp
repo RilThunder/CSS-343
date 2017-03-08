@@ -6,7 +6,17 @@
 
 Sudoku::Sudoku()
 {
-
+	for (int i = 0 ; i < 9; i++)
+	{
+		for (int j =0; j<9; j++)
+		{
+			// Initialize default variable
+			Entry defaultEntry = Entry();
+			defaultEntry.value=0;
+			defaultEntry.isValue = false;
+			representation[i][j]= defaultEntry;
+		}
+	}
 }
 
 void Sudoku::helpOutput(ostream &output) const
@@ -100,6 +110,22 @@ vector<vector<int>> Sudoku::getSudoku()
 	}
 	return x;
 	
+}
+
+void Sudoku::insert(int value , bool isValue , int row , int column)
+{
+	if ( (value < 0 ) || (value > 9) || (row <0) || (row >8) || (column <0) || (column >8))
+	{
+		cout << "Invalid input arguments";
+	}
+	representation[row][column].value = value;
+	representation[row][column].isValue = isValue;
+	return;
+}
+
+bool Sudoku::isValue(int row , int column)
+{
+	return representation[row][column].isValue;
 }
 
 
