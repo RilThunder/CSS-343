@@ -16,6 +16,16 @@ iostream
 Puzzle.h
 /home/thuan/CSS-343/Program4/Puzzle.h
 
+/home/thuan/CSS-343/Program4/Population.cpp
+Population.h
+/home/thuan/CSS-343/Program4/Population.h
+
+/home/thuan/CSS-343/Program4/Population.h
+Fitness.h
+/home/thuan/CSS-343/Program4/Fitness.h
+PuzzleFactory.h
+/home/thuan/CSS-343/Program4/PuzzleFactory.h
+
 /home/thuan/CSS-343/Program4/Puzzle.cpp
 Puzzle.h
 /home/thuan/CSS-343/Program4/Puzzle.h
@@ -27,6 +37,16 @@ fstream
 -
 string
 -
+
+/home/thuan/CSS-343/Program4/PuzzleFactory.cpp
+PuzzleFactory.h
+/home/thuan/CSS-343/Program4/PuzzleFactory.h
+
+/home/thuan/CSS-343/Program4/PuzzleFactory.h
+Puzzle.h
+/home/thuan/CSS-343/Program4/Puzzle.h
+Reproduction.h
+/home/thuan/CSS-343/Program4/Reproduction.h
 
 /home/thuan/CSS-343/Program4/Reproduction.cpp
 
@@ -45,6 +65,18 @@ vector
 -
 Puzzle.h
 /home/thuan/CSS-343/Program4/Puzzle.h
+
+/home/thuan/CSS-343/Program4/SudokuFactory.cpp
+SudokuFactory.h
+/home/thuan/CSS-343/Program4/SudokuFactory.h
+
+/home/thuan/CSS-343/Program4/SudokuFactory.h
+Puzzle.h
+/home/thuan/CSS-343/Program4/Puzzle.h
+Reproduction.h
+/home/thuan/CSS-343/Program4/Reproduction.h
+PuzzleFactory.h
+/home/thuan/CSS-343/Program4/PuzzleFactory.h
 
 /home/thuan/CSS-343/Program4/SudokuFitness.cpp
 set
@@ -71,6 +103,20 @@ Sudoku.h
 /home/thuan/CSS-343/Program4/SudokuOffspring.h
 Reproduction.h
 /home/thuan/CSS-343/Program4/Reproduction.h
+
+/home/thuan/CSS-343/Program4/SudokuPopulation.cpp
+SudokuPopulation.h
+/home/thuan/CSS-343/Program4/SudokuPopulation.h
+SudokuFitness.h
+/home/thuan/CSS-343/Program4/SudokuFitness.h
+SudokuOffspring.h
+/home/thuan/CSS-343/Program4/SudokuOffspring.h
+SudokuFactory.h
+/home/thuan/CSS-343/Program4/SudokuFactory.h
+
+/home/thuan/CSS-343/Program4/SudokuPopulation.h
+Population.h
+/home/thuan/CSS-343/Program4/Population.h
 
 /home/thuan/CSS-343/Program4/main.cpp
 iostream

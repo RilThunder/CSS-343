@@ -14,7 +14,10 @@ public:
 	SudokuPopulation(Fitness &theFit , Reproduction &reproduction , Puzzle &initialPuzzle , PuzzleFactory &theFactory ,
 	                 int theSize);
 	
+	SudokuPopulation(Puzzle &initialPuzzle , int theSize);
 	int bestFitness();
+	
+	void naturalSelection();
 	
 	Puzzle &bestIndividual();
 	

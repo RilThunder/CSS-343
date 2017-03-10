@@ -12,21 +12,25 @@
 class Population
 {
 public:
-	Population(Fitness &theFit , Reproduction &reproduction , Puzzle &initialPuzzle , PuzzleFactory &theFactory ,
-	           int theSize);
+	Population();
 	
-	virtual int bestFitness();
 	
-	virtual Puzzle &bestIndividual();
+	virtual ~Population();
 	
-	virtual void newGeneration();
+	virtual int bestFitness() = 0;
+	
+	virtual void naturalSelection() = 0;
+	
+	virtual Puzzle &bestIndividual()=0;
+	
+	virtual void newGeneration() = 0;
 
 protected:
 	int size;
 	Fitness * theFit;
 	PuzzleFactory * factory;
 	Reproduction * reproduction;
-	vector<Puzzle> container;
+	vector<Puzzle *> container;
 	Puzzle * initialPuzzle;
 	
 	

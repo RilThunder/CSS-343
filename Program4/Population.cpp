@@ -4,16 +4,18 @@
 
 #include "Population.h"
 
-Population::Population(Fitness &theFitness , Reproduction &repro , Puzzle &thePuzzle , PuzzleFactory &theFactory ,
-                       int theSize)
+
+Population::~Population()
 {
-	*theFit = theFitness;
-	*reproduction = repro;
-	*initialPuzzle = thePuzzle;
-	*factory = theFactory;
-	container[0] = thePuzzle;
-	size = theSize;
-	newGeneration();
-	
+
 }
 
+Population::Population()
+{
+	theFit = NULL;
+	reproduction = NULL;
+	initialPuzzle = NULL;
+	factory = NULL;
+	container[0] = NULL;
+	size = 0;
+}
