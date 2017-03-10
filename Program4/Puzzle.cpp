@@ -18,9 +18,9 @@ ostream &operator<<(ostream &output , const Puzzle &thePuzzle)
 	return output;
 }
 
-istream &operator>>(istream &input , Puzzle &theFile)
+istream &operator>>(istream &input , Puzzle &puzzle)
 {
-	theFile.helpInput(input);
+	puzzle.helpInput(input);
 	return input;
 }
 

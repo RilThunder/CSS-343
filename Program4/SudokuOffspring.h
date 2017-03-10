@@ -10,6 +10,7 @@
 
 class SudokuOffspring : public Reproduction
 {
+public:
 	Puzzle * makeOffspring(Puzzle &thePuzzle);
 	
 };

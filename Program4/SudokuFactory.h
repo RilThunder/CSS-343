@@ -7,11 +7,15 @@
 
 
 #include "Puzzle.h"
+#include "Reproduction.h"
+#include "PuzzleFactory.h"
 
-class SudokuFactory
+class SudokuFactory : public PuzzleFactory
 {
 public:
-	Puzzle * createPuzzle();
+	SudokuFactory(Reproduction &reproduction);
+	
+	virtual Puzzle * createPuzzle(Puzzle &thePuzzle);
 	
 };
 

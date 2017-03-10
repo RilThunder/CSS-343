@@ -273,6 +273,54 @@ CMakeFiles/Program4.dir/SudokuFactory.cpp.o.provides: CMakeFiles/Program4.dir/Su
 CMakeFiles/Program4.dir/SudokuFactory.cpp.o.provides.build: CMakeFiles/Program4.dir/SudokuFactory.cpp.o
 
 
+CMakeFiles/Program4.dir/Population.cpp.o: CMakeFiles/Program4.dir/flags.make
+CMakeFiles/Program4.dir/Population.cpp.o: ../Population.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Program4.dir/Population.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Population.cpp.o -c /home/thuan/CSS-343/Program4/Population.cpp
+
+CMakeFiles/Program4.dir/Population.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Population.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Population.cpp > CMakeFiles/Program4.dir/Population.cpp.i
+
+CMakeFiles/Program4.dir/Population.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Population.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Population.cpp -o CMakeFiles/Program4.dir/Population.cpp.s
+
+CMakeFiles/Program4.dir/Population.cpp.o.requires:
+
+.PHONY : CMakeFiles/Program4.dir/Population.cpp.o.requires
+
+CMakeFiles/Program4.dir/Population.cpp.o.provides: CMakeFiles/Program4.dir/Population.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Population.cpp.o.provides.build
+.PHONY : CMakeFiles/Program4.dir/Population.cpp.o.provides
+
+CMakeFiles/Program4.dir/Population.cpp.o.provides.build: CMakeFiles/Program4.dir/Population.cpp.o
+
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: CMakeFiles/Program4.dir/flags.make
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: ../SudokuPopulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Program4.dir/SudokuPopulation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.o -c /home/thuan/CSS-343/Program4/SudokuPopulation.cpp
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/SudokuPopulation.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/SudokuPopulation.cpp > CMakeFiles/Program4.dir/SudokuPopulation.cpp.i
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/SudokuPopulation.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/SudokuPopulation.cpp -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.s
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.requires
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.provides: CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.provides.build
+.PHONY : CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.provides
+
+CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.provides.build: CMakeFiles/Program4.dir/SudokuPopulation.cpp.o
+
+
 # Object files for target Program4
 Program4_OBJECTS = \
 "CMakeFiles/Program4.dir/main.cpp.o" \
@@ -283,7 +331,9 @@ Program4_OBJECTS = \
 "CMakeFiles/Program4.dir/Reproduction.cpp.o" \
 "CMakeFiles/Program4.dir/SudokuOffspring.cpp.o" \
 "CMakeFiles/Program4.dir/PuzzleFactory.cpp.o" \
-"CMakeFiles/Program4.dir/SudokuFactory.cpp.o"
+"CMakeFiles/Program4.dir/SudokuFactory.cpp.o" \
+"CMakeFiles/Program4.dir/Population.cpp.o" \
+"CMakeFiles/Program4.dir/SudokuPopulation.cpp.o"
 
 # External object files for target Program4
 Program4_EXTERNAL_OBJECTS =
@@ -297,9 +347,11 @@ Program4: CMakeFiles/Program4.dir/Reproduction.cpp.o
 Program4: CMakeFiles/Program4.dir/SudokuOffspring.cpp.o
 Program4: CMakeFiles/Program4.dir/PuzzleFactory.cpp.o
 Program4: CMakeFiles/Program4.dir/SudokuFactory.cpp.o
+Program4: CMakeFiles/Program4.dir/Population.cpp.o
+Program4: CMakeFiles/Program4.dir/SudokuPopulation.cpp.o
 Program4: CMakeFiles/Program4.dir/build.make
 Program4: CMakeFiles/Program4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Program4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Program4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +368,8 @@ CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/Reproduction.cpp.o.req
 CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/SudokuOffspring.cpp.o.requires
 CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/PuzzleFactory.cpp.o.requires
 CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/SudokuFactory.cpp.o.requires
+CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/Population.cpp.o.requires
+CMakeFiles/Program4.dir/requires: CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.requires
 
 .PHONY : CMakeFiles/Program4.dir/requires
 

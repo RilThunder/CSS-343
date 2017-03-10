@@ -15,9 +15,9 @@ public:
 	PuzzleFactory(Reproduction &x);
 	
 	
-	virtual Puzzle * createPuzzle();
+	virtual Puzzle * createPuzzle(Puzzle &thePuzzle);
 
-protected:
+private:
 	Reproduction* reproduc;
 	
 

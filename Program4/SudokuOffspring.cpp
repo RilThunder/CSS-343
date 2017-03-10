@@ -21,7 +21,8 @@ Puzzle* SudokuOffspring::makeOffspring(Puzzle &thePuzzle)
 			prob = rand() % 100;
 			// Fall into the 5% category
 			bool isValue = newPuzzle->isValue(i,j);
-			if (prob < 5)
+			
+			if ( prob < 5 && !isValue )
 			{
 				
 				// insert new value at that location to the Puzzle

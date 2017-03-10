@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Program4.dir/SudokuOffspring.cpp.o"
   "CMakeFiles/Program4.dir/PuzzleFactory.cpp.o"
   "CMakeFiles/Program4.dir/SudokuFactory.cpp.o"
+  "CMakeFiles/Program4.dir/Population.cpp.o"
+  "CMakeFiles/Program4.dir/SudokuPopulation.cpp.o"
   "Program4.pdb"
   "Program4"
 )

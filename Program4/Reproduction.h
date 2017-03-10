@@ -10,6 +10,7 @@
 #include <vector>
 class Reproduction
 {
+public:
 	virtual Puzzle* makeOffspring(Puzzle &thePuzzle) = 0;
 };
 

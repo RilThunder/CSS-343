@@ -18,12 +18,30 @@ public:
 	
 	virtual ~Puzzle();
 	
+	/*
+	 * This function is used to help printout the content of a Puzzle
+	 * @param output the output stream
+	 * @param thePuzzle the Puzzle to print out
+	 */
 	friend ostream &operator<<(ostream &output , const Puzzle &thePuzzle);
 	
-	friend istream &operator>>(istream &input , Puzzle &theFile);
+	/*
+	 * This function is used to take parse information to a Puzzle
+	 * @param input the Input Stream
+	 * @param theFile
+	 */
+	friend istream &operator>>(istream &input , Puzzle &puzzle);
 	
+	/*
+	 * This is a helper method for the output method
+	 * Because different Puzzle have different ways to print out, so this is a virtual method
+	 */
 	virtual void helpOutput(ostream &output) const = 0;
 	
+	/*
+	 * This is a helper method for the input method
+	 * Because different Puzzle have different ways 
+	 */
 	virtual void helpInput(istream &input) = 0;
 
 

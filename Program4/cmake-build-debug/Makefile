@@ -150,6 +150,33 @@ Fitness.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Fitness.cpp.s
 .PHONY : Fitness.cpp.s
 
+Population.o: Population.cpp.o
+
+.PHONY : Population.o
+
+# target to build an object file
+Population.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Population.cpp.o
+.PHONY : Population.cpp.o
+
+Population.i: Population.cpp.i
+
+.PHONY : Population.i
+
+# target to preprocess a source file
+Population.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Population.cpp.i
+.PHONY : Population.cpp.i
+
+Population.s: Population.cpp.s
+
+.PHONY : Population.s
+
+# target to generate assembly for a file
+Population.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/Population.cpp.s
+.PHONY : Population.cpp.s
+
 Puzzle.o: Puzzle.cpp.o
 
 .PHONY : Puzzle.o
@@ -339,6 +366,33 @@ SudokuOffspring.cpp.s:
 	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuOffspring.cpp.s
 .PHONY : SudokuOffspring.cpp.s
 
+SudokuPopulation.o: SudokuPopulation.cpp.o
+
+.PHONY : SudokuPopulation.o
+
+# target to build an object file
+SudokuPopulation.cpp.o:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuPopulation.cpp.o
+.PHONY : SudokuPopulation.cpp.o
+
+SudokuPopulation.i: SudokuPopulation.cpp.i
+
+.PHONY : SudokuPopulation.i
+
+# target to preprocess a source file
+SudokuPopulation.cpp.i:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuPopulation.cpp.i
+.PHONY : SudokuPopulation.cpp.i
+
+SudokuPopulation.s: SudokuPopulation.cpp.s
+
+.PHONY : SudokuPopulation.s
+
+# target to generate assembly for a file
+SudokuPopulation.cpp.s:
+	$(MAKE) -f CMakeFiles/Program4.dir/build.make CMakeFiles/Program4.dir/SudokuPopulation.cpp.s
+.PHONY : SudokuPopulation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -378,6 +432,9 @@ help:
 	@echo "... Fitness.o"
 	@echo "... Fitness.i"
 	@echo "... Fitness.s"
+	@echo "... Population.o"
+	@echo "... Population.i"
+	@echo "... Population.s"
 	@echo "... Puzzle.o"
 	@echo "... Puzzle.i"
 	@echo "... Puzzle.s"
@@ -399,6 +456,9 @@ help:
 	@echo "... SudokuOffspring.o"
 	@echo "... SudokuOffspring.i"
 	@echo "... SudokuOffspring.s"
+	@echo "... SudokuPopulation.o"
+	@echo "... SudokuPopulation.i"
+	@echo "... SudokuPopulation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,7 +4,12 @@
 
 #include "SudokuFactory.h"
 
-Puzzle * SudokuFactory::createPuzzle()
+Puzzle * SudokuFactory::createPuzzle(Puzzle &thePuzzle)
 {
-	reproduc
+	return PuzzleFactory::createPuzzle(thePuzzle);
+}
+
+SudokuFactory::SudokuFactory(Reproduction &reproduction) : PuzzleFactory(reproduction)
+{
+
 }

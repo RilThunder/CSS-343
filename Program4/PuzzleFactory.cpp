@@ -9,3 +9,8 @@ PuzzleFactory::PuzzleFactory(Reproduction &x)
 	reproduc = &x;
 	
 }
+
+Puzzle * PuzzleFactory::createPuzzle(Puzzle &thePuzzle)
+{
+	return reproduc->makeOffspring(thePuzzle);
+}
