@@ -49,6 +49,8 @@ Reproduction.h
 /home/thuan/CSS-343/Program4/Reproduction.h
 
 /home/thuan/CSS-343/Program4/Reproduction.cpp
+Reproduction.h
+/home/thuan/CSS-343/Program4/Reproduction.h
 
 /home/thuan/CSS-343/Program4/Reproduction.h
 Puzzle.h
@@ -93,6 +95,8 @@ Fitness.h
 /home/thuan/CSS-343/Program4/Fitness.h
 
 /home/thuan/CSS-343/Program4/SudokuOffspring.cpp
+random
+-
 Puzzle.h
 /home/thuan/CSS-343/Program4/Puzzle.h
 SudokuOffspring.h
@@ -105,6 +109,10 @@ Reproduction.h
 /home/thuan/CSS-343/Program4/Reproduction.h
 
 /home/thuan/CSS-343/Program4/SudokuPopulation.cpp
+algorithm
+-
+vector
+-
 SudokuPopulation.h
 /home/thuan/CSS-343/Program4/SudokuPopulation.h
 SudokuFitness.h
@@ -125,8 +133,8 @@ Puzzle.h
 /home/thuan/CSS-343/Program4/Puzzle.h
 Sudoku.h
 /home/thuan/CSS-343/Program4/Sudoku.h
-Fitness.h
-/home/thuan/CSS-343/Program4/Fitness.h
-SudokuFitness.h
-/home/thuan/CSS-343/Program4/SudokuFitness.h
+Population.h
+/home/thuan/CSS-343/Program4/Population.h
+SudokuPopulation.h
+/home/thuan/CSS-343/Program4/SudokuPopulation.h
 

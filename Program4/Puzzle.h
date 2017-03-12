@@ -1,6 +1,11 @@
-//
-// Created by thuan on 01/03/17.
-//
+
+/*
+ * Program 4: Implement a Genetic Algorithm Solver for Sudoku Puzzle
+ * Purpose of Puzzle class : Act as the base class for Sudoku.
+ * @author Thuan Tran, CSSE Junior at the University of Washington Bothell
+ * March 11th, 2017
+ * @version 1.1
+ */
 
 #ifndef UNTITLED_PUZZLE_H
 #define UNTITLED_PUZZLE_H
@@ -14,8 +19,14 @@ using namespace std;
 class Puzzle
 {
 public:
+	/*
+	 * Default constructor for Puzzle, never called
+	 */
 	Puzzle();
 	
+	/*
+	 * Destructor for Puzzle
+	 */
 	virtual ~Puzzle();
 	
 	/*
@@ -40,12 +51,9 @@ public:
 	
 	/*
 	 * This is a helper method for the input method
-	 * Because different Puzzle have different ways 
+	 * Because different Puzzle have different ways to take in input
 	 */
 	virtual void helpInput(istream &input) = 0;
-
-
-
 };
 
 

@@ -1,6 +1,10 @@
-//
-// Created by thuan on 01/03/17.
-//
+/*
+ * Program 4: Implement a Genetic Algorithm Solver for Sudoku Puzzle
+ * Purpose of Sudoku class : A sudoku puzzle
+ * @author Thuan Tran, CSSE Junior at the University of Washington Bothell
+ * March 11th, 2017
+ * @version 1.1
+ */
 
 #include "Sudoku.h"
 
@@ -100,7 +104,7 @@ void Sudoku::helpInput(istream &input)
 vector<vector<int>> Sudoku::getSudoku()
 {
 	vector<vector<int>> x(9 , vector<int>(9));
-	
+	// copy the value over
 	for ( int i = 0 ; i < 9 ; i++ )
 	{
 		for ( int j = 0 ; j < 9 ; j++ )
@@ -125,6 +129,7 @@ void Sudoku::insert(int value , bool isValue , int row , int column)
 
 bool Sudoku::isValue(int row , int column)
 {
+	// is this a fixed value ?
 	return representation[row][column].isValue;
 }
 
