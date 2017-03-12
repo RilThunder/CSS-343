@@ -23,18 +23,19 @@ int main(int argc , char * argv[])
 	int min = x->bestFitness();
 	// Generate the initial Puzzle;
 	x->newGeneration();
-	
+	int resultIteration = 0;
 	// This is used to capture the best fitness that we encountered
 	int bestSoFar = INT32_MAX;
 	bool flag = false;
 	Puzzle * best;
-	for ( int i = 0 ; i < atoi(argv[2]) ; i++ )
+	for ( int i = 1 ; i <= atoi(argv[2]) ; i++ )
 		//for ( int i = 0 ; i < 100 ; i++ )
 	{
 		if ( x->bestFitness() == 0 )
 		{
 			// Found a solution
 			flag = true;
+			resultIteration = i;
 			Puzzle * result = &x->bestIndividual();
 			best = result;
 			break;
@@ -59,7 +60,10 @@ int main(int argc , char * argv[])
 	{
 		cout << "The solution of the sudoku is ";
 		cout << endl;
+		
 		cout << *best;
+		cout << endl;
+		cout << "The result was found at the " << resultIteration << "th iteration" << endl;
 		
 	} else
 	{
