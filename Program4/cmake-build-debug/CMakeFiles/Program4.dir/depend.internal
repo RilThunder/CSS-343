@@ -21,7 +21,9 @@ CMakeFiles/Program4.dir/PuzzleFactory.cpp.o
  /home/thuan/CSS-343/Program4/PuzzleFactory.h
  /home/thuan/CSS-343/Program4/Reproduction.h
 CMakeFiles/Program4.dir/Reproduction.cpp.o
+ /home/thuan/CSS-343/Program4/Puzzle.h
  /home/thuan/CSS-343/Program4/Reproduction.cpp
+ /home/thuan/CSS-343/Program4/Reproduction.h
 CMakeFiles/Program4.dir/Sudoku.cpp.o
  /home/thuan/CSS-343/Program4/Puzzle.h
  /home/thuan/CSS-343/Program4/Sudoku.cpp
@@ -57,7 +59,10 @@ CMakeFiles/Program4.dir/SudokuPopulation.cpp.o
  /home/thuan/CSS-343/Program4/SudokuPopulation.h
 CMakeFiles/Program4.dir/main.cpp.o
  /home/thuan/CSS-343/Program4/Fitness.h
+ /home/thuan/CSS-343/Program4/Population.h
  /home/thuan/CSS-343/Program4/Puzzle.h
+ /home/thuan/CSS-343/Program4/PuzzleFactory.h
+ /home/thuan/CSS-343/Program4/Reproduction.h
  /home/thuan/CSS-343/Program4/Sudoku.h
- /home/thuan/CSS-343/Program4/SudokuFitness.h
+ /home/thuan/CSS-343/Program4/SudokuPopulation.h
  /home/thuan/CSS-343/Program4/main.cpp

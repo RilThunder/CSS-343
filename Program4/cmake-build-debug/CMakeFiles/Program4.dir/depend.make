@@ -20,7 +20,9 @@ CMakeFiles/Program4.dir/PuzzleFactory.cpp.o: ../PuzzleFactory.cpp
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.o: ../PuzzleFactory.h
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.o: ../Reproduction.h
 
+CMakeFiles/Program4.dir/Reproduction.cpp.o: ../Puzzle.h
 CMakeFiles/Program4.dir/Reproduction.cpp.o: ../Reproduction.cpp
+CMakeFiles/Program4.dir/Reproduction.cpp.o: ../Reproduction.h
 
 CMakeFiles/Program4.dir/Sudoku.cpp.o: ../Puzzle.h
 CMakeFiles/Program4.dir/Sudoku.cpp.o: ../Sudoku.cpp
@@ -56,8 +58,11 @@ CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: ../SudokuPopulation.cpp
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: ../SudokuPopulation.h
 
 CMakeFiles/Program4.dir/main.cpp.o: ../Fitness.h
+CMakeFiles/Program4.dir/main.cpp.o: ../Population.h
 CMakeFiles/Program4.dir/main.cpp.o: ../Puzzle.h
+CMakeFiles/Program4.dir/main.cpp.o: ../PuzzleFactory.h
+CMakeFiles/Program4.dir/main.cpp.o: ../Reproduction.h
 CMakeFiles/Program4.dir/main.cpp.o: ../Sudoku.h
-CMakeFiles/Program4.dir/main.cpp.o: ../SudokuFitness.h
+CMakeFiles/Program4.dir/main.cpp.o: ../SudokuPopulation.h
 CMakeFiles/Program4.dir/main.cpp.o: ../main.cpp
 
