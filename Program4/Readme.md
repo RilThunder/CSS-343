@@ -31,6 +31,8 @@ What makes this approach "genetic" is that a GA program is used that generates
  
 Statement of Work 
 In this program, you are asked to design and implement a set of classes that define the abstractions necessary to solve puzzles of any kind using a GA. You will then produce concrete subclasses that implement these interfaces for sudoku. The overall class relationships are described by the UML figure below. 
+
+![ScreenShot](https://github.com/RilThunder/CSS-343/blob/master/Program4/image.png)
  
  
 
@@ -48,8 +50,7 @@ The Sudoku stream input method must read a puzzle in a compact text format. Th
  
 The Sudoku stream output method must produce a "human friendly" output as formatted text. Output a puzzle as 13 lines of text, with each line either being a separator or one containing the numbers in a row of the puzzle separated by single spaces. Use the '|', '+', and '-' characters to separate 3-by-3 blocks (so, each line of output should be 25 printing characters long: 9 digits, 12 spaces, and 4 '|' for "non-divider" lines and 21 '-' and 4 '+' for "divider" lines). An example (very simple puzzle) is shown below. 
  
-m 
-m 
+![ScreenShot](https://github.com/RilThunder/CSS-343/blob/master/Program4/image%20(1).png)
  
  
  
