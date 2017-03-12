@@ -18,23 +18,25 @@ int main(int argc , char * argv[])
 	
 	
 	Population * x;
-	
 	x = new SudokuPopulation(*a , atoi(argv[1]));
+//	x = new SudokuPopulation(*a , 20);
 	int min = x->bestFitness();
 	// Generate the initial Puzzle;
 	x->newGeneration();
 	
 	// This is used to capture the best fitness that we encountered
 	int bestSoFar = INT32_MAX;
+	bool flag = false;
 	Puzzle * best;
 	for ( int i = 0 ; i < atoi(argv[2]) ; i++ )
+		//for ( int i = 0 ; i < 100 ; i++ )
 	{
 		if ( x->bestFitness() == 0 )
 		{
 			// Found a solution
-			*best = x->bestIndividual();
-			cout << *best;
-			
+			flag = true;
+			Puzzle * result = &x->bestIndividual();
+			best = result;
 			break;
 		}
 		x->naturalSelection();
@@ -53,16 +55,25 @@ int main(int argc , char * argv[])
 	cout << "Original fitness of the Puzzle : ";
 	cout << min << endl;
 	
-	cout << "The result fitness of the Puzzle: " << endl;
-	cout << x->bestIndividual();
-	cout << endl;
-	cout << "The result fitness of the Puzzle: ";
-	cout << x->bestFitness();
-	cout << endl;
-	
-	cout << "The best fitness the we have encountered: ";
-	cout << bestSoFar;
-	cout << endl;
-	
+	if ( flag )
+	{
+		cout << "The solution of the sudoku is ";
+		cout << endl;
+		cout << *best;
+		
+	} else
+	{
+		cout << "A solution was not found in this iteration" << endl;
+		cout << "The result fitness of the Puzzle: " << endl;
+		cout << x->bestIndividual();
+		cout << endl;
+		cout << "The result fitness of the Puzzle: ";
+		cout << x->bestFitness();
+		cout << endl;
+		
+		cout << "The best fitness the we have encountered: ";
+		cout << bestSoFar;
+		cout << endl;
+	}
 	delete x;
 }

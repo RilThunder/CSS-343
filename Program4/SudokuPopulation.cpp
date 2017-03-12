@@ -35,7 +35,7 @@ Puzzle &SudokuPopulation::bestIndividual()
 	Puzzle * result = container[0];
 	for ( Puzzle * x : container )
 	{
-		if ( bestFit < theFit->howFit(*x))
+		if ( theFit->howFit(*x) < bestFit )
 		{
 			
 			bestFit = theFit->howFit(*x);
@@ -96,6 +96,12 @@ void SudokuPopulation::naturalSelection()
 	sort(fitness , fitness + size , greater<int>());
 	int mark = (size * 9) / 10 - 1;
 	
+	// Sort the vector in descending order of fitness using lambda expression
+	sort(container.begin() , container.end() , [this](auto &lhs , auto &rhs)
+	{
+		return theFit->howFit(*lhs) > theFit->howFit(*rhs);
+	});
+
 	// everything below the mark is deleted
 	for ( int i = 0 ; i < mark ; i++ )
 	{
@@ -128,3 +134,6 @@ SudokuPopulation::~SudokuPopulation()
 	}
 	
 }
+
+
+

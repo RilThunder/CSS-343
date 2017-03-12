@@ -38,7 +38,7 @@ int SudokuFitness::howFit(vector<vector<int>> &x)
 			int value = theVector[row][column];
 			
 			// Check to see if we encounter that variable before
-			if ( validate.find(value) != validate.end())
+			if ( validate.find(value) != validate.end() || value == 0 )
 			{
 				// it already existed => not good
 				fitness++;
@@ -60,7 +60,7 @@ int SudokuFitness::howFit(vector<vector<int>> &x)
 		{
 			int value = theVector[column][row];
 			// Check to see if we encounter that variable before
-			if ( validate.find(value) != validate.end())
+			if ( validate.find(value) != validate.end() || value == 0 )
 			{
 				fitness++;
 				
@@ -88,7 +88,7 @@ int SudokuFitness::howFit(vector<vector<int>> &x)
 			
 			int value = theVector[rowIndex][columnIndex];
 			// Check to see if we encounter that variable before
-			if ( validate.find(value) != validate.end())
+			if ( validate.find(value) != validate.end() || value == 0 )
 			{
 				fitness++;
 				

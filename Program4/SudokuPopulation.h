@@ -46,6 +46,8 @@ public:
 	 * Generate a new generation based on what is left
 	 */
 	void newGeneration();
+	
+	
 };
 
 
