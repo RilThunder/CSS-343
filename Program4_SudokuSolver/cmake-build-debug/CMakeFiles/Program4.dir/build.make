@@ -43,10 +43,10 @@ RM = /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thuan/CSS-343/Program4
+CMAKE_SOURCE_DIR = /home/thuan/CSS-343/Program4_SudokuSolver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thuan/CSS-343/Program4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Program4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Program4.dir/flags.make
 
 CMakeFiles/Program4.dir/main.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Program4.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/main.cpp.o -c /home/thuan/CSS-343/Program4/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Program4.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/main.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/main.cpp
 
 CMakeFiles/Program4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/main.cpp > CMakeFiles/Program4.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/main.cpp > CMakeFiles/Program4.dir/main.cpp.i
 
 CMakeFiles/Program4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/main.cpp -o CMakeFiles/Program4.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/main.cpp -o CMakeFiles/Program4.dir/main.cpp.s
 
 CMakeFiles/Program4.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Program4.dir/main.cpp.o.provides.build: CMakeFiles/Program4.dir/main.
 
 CMakeFiles/Program4.dir/Puzzle.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/Puzzle.cpp.o: ../Puzzle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Program4.dir/Puzzle.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Puzzle.cpp.o -c /home/thuan/CSS-343/Program4/Puzzle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Program4.dir/Puzzle.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Puzzle.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.cpp
 
 CMakeFiles/Program4.dir/Puzzle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Puzzle.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Puzzle.cpp > CMakeFiles/Program4.dir/Puzzle.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.cpp > CMakeFiles/Program4.dir/Puzzle.cpp.i
 
 CMakeFiles/Program4.dir/Puzzle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Puzzle.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Puzzle.cpp -o CMakeFiles/Program4.dir/Puzzle.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.cpp -o CMakeFiles/Program4.dir/Puzzle.cpp.s
 
 CMakeFiles/Program4.dir/Puzzle.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Program4.dir/Puzzle.cpp.o.provides.build: CMakeFiles/Program4.dir/Puz
 
 CMakeFiles/Program4.dir/Sudoku.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/Sudoku.cpp.o: ../Sudoku.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Program4.dir/Sudoku.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Sudoku.cpp.o -c /home/thuan/CSS-343/Program4/Sudoku.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Program4.dir/Sudoku.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Sudoku.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.cpp
 
 CMakeFiles/Program4.dir/Sudoku.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Sudoku.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Sudoku.cpp > CMakeFiles/Program4.dir/Sudoku.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.cpp > CMakeFiles/Program4.dir/Sudoku.cpp.i
 
 CMakeFiles/Program4.dir/Sudoku.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Sudoku.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Sudoku.cpp -o CMakeFiles/Program4.dir/Sudoku.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.cpp -o CMakeFiles/Program4.dir/Sudoku.cpp.s
 
 CMakeFiles/Program4.dir/Sudoku.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Program4.dir/Sudoku.cpp.o.provides.build: CMakeFiles/Program4.dir/Sud
 
 CMakeFiles/Program4.dir/Fitness.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/Fitness.cpp.o: ../Fitness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Program4.dir/Fitness.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Fitness.cpp.o -c /home/thuan/CSS-343/Program4/Fitness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Program4.dir/Fitness.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Fitness.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/Fitness.cpp
 
 CMakeFiles/Program4.dir/Fitness.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Fitness.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Fitness.cpp > CMakeFiles/Program4.dir/Fitness.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/Fitness.cpp > CMakeFiles/Program4.dir/Fitness.cpp.i
 
 CMakeFiles/Program4.dir/Fitness.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Fitness.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Fitness.cpp -o CMakeFiles/Program4.dir/Fitness.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/Fitness.cpp -o CMakeFiles/Program4.dir/Fitness.cpp.s
 
 CMakeFiles/Program4.dir/Fitness.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Program4.dir/Fitness.cpp.o.provides.build: CMakeFiles/Program4.dir/Fi
 
 CMakeFiles/Program4.dir/SudokuFitness.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/SudokuFitness.cpp.o: ../SudokuFitness.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Program4.dir/SudokuFitness.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuFitness.cpp.o -c /home/thuan/CSS-343/Program4/SudokuFitness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Program4.dir/SudokuFitness.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuFitness.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.cpp
 
 CMakeFiles/Program4.dir/SudokuFitness.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/SudokuFitness.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/SudokuFitness.cpp > CMakeFiles/Program4.dir/SudokuFitness.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.cpp > CMakeFiles/Program4.dir/SudokuFitness.cpp.i
 
 CMakeFiles/Program4.dir/SudokuFitness.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/SudokuFitness.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/SudokuFitness.cpp -o CMakeFiles/Program4.dir/SudokuFitness.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.cpp -o CMakeFiles/Program4.dir/SudokuFitness.cpp.s
 
 CMakeFiles/Program4.dir/SudokuFitness.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Program4.dir/SudokuFitness.cpp.o.provides.build: CMakeFiles/Program4.
 
 CMakeFiles/Program4.dir/Reproduction.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/Reproduction.cpp.o: ../Reproduction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Program4.dir/Reproduction.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Reproduction.cpp.o -c /home/thuan/CSS-343/Program4/Reproduction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Program4.dir/Reproduction.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Reproduction.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.cpp
 
 CMakeFiles/Program4.dir/Reproduction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Reproduction.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Reproduction.cpp > CMakeFiles/Program4.dir/Reproduction.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.cpp > CMakeFiles/Program4.dir/Reproduction.cpp.i
 
 CMakeFiles/Program4.dir/Reproduction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Reproduction.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Reproduction.cpp -o CMakeFiles/Program4.dir/Reproduction.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.cpp -o CMakeFiles/Program4.dir/Reproduction.cpp.s
 
 CMakeFiles/Program4.dir/Reproduction.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Program4.dir/Reproduction.cpp.o.provides.build: CMakeFiles/Program4.d
 
 CMakeFiles/Program4.dir/SudokuOffspring.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/SudokuOffspring.cpp.o: ../SudokuOffspring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Program4.dir/SudokuOffspring.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuOffspring.cpp.o -c /home/thuan/CSS-343/Program4/SudokuOffspring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Program4.dir/SudokuOffspring.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuOffspring.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.cpp
 
 CMakeFiles/Program4.dir/SudokuOffspring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/SudokuOffspring.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/SudokuOffspring.cpp > CMakeFiles/Program4.dir/SudokuOffspring.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.cpp > CMakeFiles/Program4.dir/SudokuOffspring.cpp.i
 
 CMakeFiles/Program4.dir/SudokuOffspring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/SudokuOffspring.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/SudokuOffspring.cpp -o CMakeFiles/Program4.dir/SudokuOffspring.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.cpp -o CMakeFiles/Program4.dir/SudokuOffspring.cpp.s
 
 CMakeFiles/Program4.dir/SudokuOffspring.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Program4.dir/SudokuOffspring.cpp.o.provides.build: CMakeFiles/Program
 
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.o: ../PuzzleFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Program4.dir/PuzzleFactory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/PuzzleFactory.cpp.o -c /home/thuan/CSS-343/Program4/PuzzleFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Program4.dir/PuzzleFactory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/PuzzleFactory.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.cpp
 
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/PuzzleFactory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/PuzzleFactory.cpp > CMakeFiles/Program4.dir/PuzzleFactory.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.cpp > CMakeFiles/Program4.dir/PuzzleFactory.cpp.i
 
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/PuzzleFactory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/PuzzleFactory.cpp -o CMakeFiles/Program4.dir/PuzzleFactory.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.cpp -o CMakeFiles/Program4.dir/PuzzleFactory.cpp.s
 
 CMakeFiles/Program4.dir/PuzzleFactory.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Program4.dir/PuzzleFactory.cpp.o.provides.build: CMakeFiles/Program4.
 
 CMakeFiles/Program4.dir/SudokuFactory.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/SudokuFactory.cpp.o: ../SudokuFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Program4.dir/SudokuFactory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuFactory.cpp.o -c /home/thuan/CSS-343/Program4/SudokuFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Program4.dir/SudokuFactory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuFactory.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.cpp
 
 CMakeFiles/Program4.dir/SudokuFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/SudokuFactory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/SudokuFactory.cpp > CMakeFiles/Program4.dir/SudokuFactory.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.cpp > CMakeFiles/Program4.dir/SudokuFactory.cpp.i
 
 CMakeFiles/Program4.dir/SudokuFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/SudokuFactory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/SudokuFactory.cpp -o CMakeFiles/Program4.dir/SudokuFactory.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.cpp -o CMakeFiles/Program4.dir/SudokuFactory.cpp.s
 
 CMakeFiles/Program4.dir/SudokuFactory.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Program4.dir/SudokuFactory.cpp.o.provides.build: CMakeFiles/Program4.
 
 CMakeFiles/Program4.dir/Population.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/Population.cpp.o: ../Population.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Program4.dir/Population.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Population.cpp.o -c /home/thuan/CSS-343/Program4/Population.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Program4.dir/Population.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/Population.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/Population.cpp
 
 CMakeFiles/Program4.dir/Population.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/Population.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/Population.cpp > CMakeFiles/Program4.dir/Population.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/Population.cpp > CMakeFiles/Program4.dir/Population.cpp.i
 
 CMakeFiles/Program4.dir/Population.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/Population.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/Population.cpp -o CMakeFiles/Program4.dir/Population.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/Population.cpp -o CMakeFiles/Program4.dir/Population.cpp.s
 
 CMakeFiles/Program4.dir/Population.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Program4.dir/Population.cpp.o.provides.build: CMakeFiles/Program4.dir
 
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: CMakeFiles/Program4.dir/flags.make
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.o: ../SudokuPopulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Program4.dir/SudokuPopulation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.o -c /home/thuan/CSS-343/Program4/SudokuPopulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Program4.dir/SudokuPopulation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.o -c /home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.cpp
 
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program4.dir/SudokuPopulation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4/SudokuPopulation.cpp > CMakeFiles/Program4.dir/SudokuPopulation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.cpp > CMakeFiles/Program4.dir/SudokuPopulation.cpp.i
 
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program4.dir/SudokuPopulation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4/SudokuPopulation.cpp -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.cpp -o CMakeFiles/Program4.dir/SudokuPopulation.cpp.s
 
 CMakeFiles/Program4.dir/SudokuPopulation.cpp.o.requires:
 
@@ -351,7 +351,7 @@ Program4: CMakeFiles/Program4.dir/Population.cpp.o
 Program4: CMakeFiles/Program4.dir/SudokuPopulation.cpp.o
 Program4: CMakeFiles/Program4.dir/build.make
 Program4: CMakeFiles/Program4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Program4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Program4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +378,6 @@ CMakeFiles/Program4.dir/clean:
 .PHONY : CMakeFiles/Program4.dir/clean
 
 CMakeFiles/Program4.dir/depend:
-	cd /home/thuan/CSS-343/Program4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thuan/CSS-343/Program4 /home/thuan/CSS-343/Program4 /home/thuan/CSS-343/Program4/cmake-build-debug /home/thuan/CSS-343/Program4/cmake-build-debug /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thuan/CSS-343/Program4_SudokuSolver /home/thuan/CSS-343/Program4_SudokuSolver /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Program4.dir/depend
 

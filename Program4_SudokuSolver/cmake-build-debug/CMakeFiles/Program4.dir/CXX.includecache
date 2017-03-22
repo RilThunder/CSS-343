@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/thuan/CSS-343/Program4/Fitness.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.cpp
 Fitness.h
-/home/thuan/CSS-343/Program4/Fitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.h
 
-/home/thuan/CSS-343/Program4/Fitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.h
 iostream
 -
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 
-/home/thuan/CSS-343/Program4/Population.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/Population.cpp
 Population.h
-/home/thuan/CSS-343/Program4/Population.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Population.h
 
-/home/thuan/CSS-343/Program4/Population.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Population.h
 Fitness.h
-/home/thuan/CSS-343/Program4/Fitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.h
 PuzzleFactory.h
-/home/thuan/CSS-343/Program4/PuzzleFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.h
 
-/home/thuan/CSS-343/Program4/Puzzle.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.cpp
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 iostream
 -
 fstream
@@ -38,103 +38,103 @@ fstream
 string
 -
 
-/home/thuan/CSS-343/Program4/PuzzleFactory.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.cpp
 PuzzleFactory.h
-/home/thuan/CSS-343/Program4/PuzzleFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.h
 
-/home/thuan/CSS-343/Program4/PuzzleFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.h
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 Reproduction.h
-/home/thuan/CSS-343/Program4/Reproduction.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h
 
-/home/thuan/CSS-343/Program4/Reproduction.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.cpp
 Reproduction.h
-/home/thuan/CSS-343/Program4/Reproduction.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h
 
-/home/thuan/CSS-343/Program4/Reproduction.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 vector
 -
 
-/home/thuan/CSS-343/Program4/Sudoku.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.cpp
 Sudoku.h
-/home/thuan/CSS-343/Program4/Sudoku.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h
 
-/home/thuan/CSS-343/Program4/Sudoku.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h
 vector
 -
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 
-/home/thuan/CSS-343/Program4/SudokuFactory.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.cpp
 SudokuFactory.h
-/home/thuan/CSS-343/Program4/SudokuFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.h
 
-/home/thuan/CSS-343/Program4/SudokuFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.h
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 Reproduction.h
-/home/thuan/CSS-343/Program4/Reproduction.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h
 PuzzleFactory.h
-/home/thuan/CSS-343/Program4/PuzzleFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.h
 
-/home/thuan/CSS-343/Program4/SudokuFitness.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.cpp
 set
 -
 SudokuFitness.h
-/home/thuan/CSS-343/Program4/SudokuFitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.h
 Sudoku.h
-/home/thuan/CSS-343/Program4/Sudoku.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h
 
-/home/thuan/CSS-343/Program4/SudokuFitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.h
 vector
 -
 Fitness.h
-/home/thuan/CSS-343/Program4/Fitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.h
 
-/home/thuan/CSS-343/Program4/SudokuOffspring.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.cpp
 random
 -
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 SudokuOffspring.h
-/home/thuan/CSS-343/Program4/SudokuOffspring.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.h
 Sudoku.h
-/home/thuan/CSS-343/Program4/Sudoku.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h
 
-/home/thuan/CSS-343/Program4/SudokuOffspring.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.h
 Reproduction.h
-/home/thuan/CSS-343/Program4/Reproduction.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h
 
-/home/thuan/CSS-343/Program4/SudokuPopulation.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.cpp
 algorithm
 -
 vector
 -
 SudokuPopulation.h
-/home/thuan/CSS-343/Program4/SudokuPopulation.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.h
 SudokuFitness.h
-/home/thuan/CSS-343/Program4/SudokuFitness.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.h
 SudokuOffspring.h
-/home/thuan/CSS-343/Program4/SudokuOffspring.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.h
 SudokuFactory.h
-/home/thuan/CSS-343/Program4/SudokuFactory.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.h
 
-/home/thuan/CSS-343/Program4/SudokuPopulation.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.h
 Population.h
-/home/thuan/CSS-343/Program4/Population.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Population.h
 
-/home/thuan/CSS-343/Program4/main.cpp
+/home/thuan/CSS-343/Program4_SudokuSolver/main.cpp
 iostream
 -
 Puzzle.h
-/home/thuan/CSS-343/Program4/Puzzle.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h
 Sudoku.h
-/home/thuan/CSS-343/Program4/Sudoku.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h
 Population.h
-/home/thuan/CSS-343/Program4/Population.h
+/home/thuan/CSS-343/Program4_SudokuSolver/Population.h
 SudokuPopulation.h
-/home/thuan/CSS-343/Program4/SudokuPopulation.h
+/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.h
 
