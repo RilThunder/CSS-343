@@ -12,48 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5944cb36-634c-4407-8bda-dc41d9b913ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/.idea/Program4_SudokuSolver.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Program2_ShortestPath" afterPath="$PROJECT_DIR$/cmake-build-debug/Program2_ShortestPath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/Program4" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/Program4" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/depend.internal" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program2_ShortestPath.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Program2_ShortestPath.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Program2_ShortestPath.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/CXX.includecache" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/build.make" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/depend.internal" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/Program4.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/untitled.cbp" afterPath="$PROJECT_DIR$/../Program4_SudokuSolver/cmake-build-debug/untitled.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +42,7 @@
       <file leaf-file-name="Lab3.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="22">
               <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
@@ -401,6 +371,7 @@
       <workItem from="1486954262677" duration="220000" />
       <workItem from="1489968571237" duration="77000" />
       <workItem from="1489987312843" duration="26000" />
+      <workItem from="1490298834163" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Testing from CLion on Linux">
       <created>1486669250486</created>
@@ -413,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2333000" />
+    <option name="totallyTimeSpent" value="2358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="22">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
