@@ -1,4 +1,4 @@
-The system is: Linux - 4.8.0-39-generic - x86_64
+The system is: Linux - 4.8.0-42-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_701e8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_701e8.dir/build.make CMakeFiles/cmTC_701e8.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_701e8.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_701e8.dir/testCCompiler.c.o   -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_701e8
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_701e8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_701e8.dir/testCCompiler.c.o  -o cmTC_701e8 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bf28a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf28a.dir/build.make CMakeFiles/cmTC_bf28a.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf28a.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bf28a.dir/testCCompiler.c.o   -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bf28a
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf28a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bf28a.dir/testCCompiler.c.o  -o cmTC_bf28a 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98f38/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98f38.dir/build.make CMakeFiles/cmTC_98f38.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o   -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_98f38
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f38.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o  -o cmTC_98f38  
+Run Build Command:"/usr/bin/make" "cmTC_5f93b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f93b.dir/build.make CMakeFiles/cmTC_5f93b.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o   -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5f93b
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f93b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o  -o cmTC_5f93b  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f38' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3pQO5z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98f38 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f38' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f93b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccduxCOR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f93b /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f93b' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98f38/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98f38.dir/build.make CMakeFiles/cmTC_98f38.dir/build]
-  ignore line: [make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o   -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_98f38]
-  ignore line: [/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f38.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o  -o cmTC_98f38  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5f93b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5f93b.dir/build.make CMakeFiles/cmTC_5f93b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o   -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5f93b]
+  ignore line: [/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f93b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o  -o cmTC_5f93b  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98f38' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3pQO5z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98f38 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f93b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccduxCOR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f93b /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3pQO5z.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccduxCOR.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_98f38] ==> ignore
+    arg [cmTC_5f93b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_98f38.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5f93b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,17 +155,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e667/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e667.dir/build.make CMakeFiles/cmTC_0e667.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e667.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0e667.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0e667
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e667.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0e667.dir/feature_tests.c.o  -o cmTC_0e667 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_999b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_999b2.dir/build.make CMakeFiles/cmTC_999b2.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_999b2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_999b2.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_999b2
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_999b2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_999b2.dir/feature_tests.c.o  -o cmTC_999b2 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -175,17 +175,17 @@ make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMake
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6db6a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6db6a.dir/build.make CMakeFiles/cmTC_6db6a.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6db6a
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db6a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o  -o cmTC_6db6a 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bd9bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd9bf.dir/build.make CMakeFiles/cmTC_bd9bf.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd9bf.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_bd9bf.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bd9bf
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd9bf.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bd9bf.dir/feature_tests.c.o  -o cmTC_bd9bf 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -195,17 +195,17 @@ make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMake
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38a9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38a9e.dir/build.make CMakeFiles/cmTC_38a9e.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38a9e.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_38a9e.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_38a9e
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a9e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_38a9e.dir/feature_tests.c.o  -o cmTC_38a9e 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8d909/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d909.dir/build.make CMakeFiles/cmTC_8d909.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d909.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_8d909.dir/feature_tests.c.o   -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d909
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d909.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8d909.dir/feature_tests.c.o  -o cmTC_8d909 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -213,30 +213,30 @@ make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6c42/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6c42.dir/build.make CMakeFiles/cmTC_b6c42.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6c42.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b6c42.dir/testCXXCompiler.cxx.o -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b6c42
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c42.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b6c42.dir/testCXXCompiler.cxx.o  -o cmTC_b6c42 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ec4f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec4f1.dir/build.make CMakeFiles/cmTC_ec4f1.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec4f1.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ec4f1.dir/testCXXCompiler.cxx.o -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ec4f1
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec4f1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ec4f1.dir/testCXXCompiler.cxx.o  -o cmTC_ec4f1 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c7fc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c7fc.dir/build.make CMakeFiles/cmTC_0c7fc.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_0c7fc
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c7fc.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c7fc  
+Run Build Command:"/usr/bin/make" "cmTC_b11fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b11fe.dir/build.make CMakeFiles/cmTC_b11fe.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b11fe
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11fe.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b11fe  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -246,24 +246,24 @@ Thread model: posix
 gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c7fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfe4FdW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c7fc /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c7fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHU1Tmg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b11fe /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0c7fc/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0c7fc.dir/build.make CMakeFiles/cmTC_0c7fc.dir/build]
-  ignore line: [make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_0c7fc]
-  ignore line: [/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c7fc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c7fc  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b11fe/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b11fe.dir/build.make CMakeFiles/cmTC_b11fe.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o -c /home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b11fe]
+  ignore line: [/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11fe.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b11fe  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.2.0 20161005 (Ubuntu 6.2.0-5ubuntu12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c7fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfe4FdW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c7fc /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11fe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHU1Tmg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b11fe /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfe4FdW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHU1Tmg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0c7fc] ==> ignore
+    arg [cmTC_b11fe] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_0c7fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b11fe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca487/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca487.dir/build.make CMakeFiles/cmTC_ca487.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ca487.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_ca487.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ca487
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca487.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ca487.dir/feature_tests.cxx.o  -o cmTC_ca487 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_39f37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39f37.dir/build.make CMakeFiles/cmTC_39f37.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39f37.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_39f37.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_39f37
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f37.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_39f37.dir/feature_tests.cxx.o  -o cmTC_39f37 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMake
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5950/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5950.dir/build.make CMakeFiles/cmTC_d5950.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d5950.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_d5950.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d5950
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5950.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d5950.dir/feature_tests.cxx.o  -o cmTC_d5950 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_010e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_010e4.dir/build.make CMakeFiles/cmTC_010e4.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_010e4.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_010e4.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_010e4
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_010e4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_010e4.dir/feature_tests.cxx.o  -o cmTC_010e4 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_97af5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_97af5.dir/build.make CMakeFiles/cmTC_97af5.dir/build
-make[1]: Entering directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_97af5.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_97af5.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_97af5
-/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97af5.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_97af5.dir/feature_tests.cxx.o  -o cmTC_97af5 
-make[1]: Leaving directory '/home/thuan/CSS-343/Program4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b1688/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1688.dir/build.make CMakeFiles/cmTC_b1688.dir/build
+make[1]: Entering directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1688.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_b1688.dir/feature_tests.cxx.o -c /home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b1688
+/home/thuan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.43/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1688.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b1688.dir/feature_tests.cxx.o  -o cmTC_b1688 
+make[1]: Leaving directory '/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

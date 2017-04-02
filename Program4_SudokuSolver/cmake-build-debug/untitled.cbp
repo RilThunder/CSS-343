@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/thuan/CSS-343/Program4/cmake-build-debug"/>
+				<Option working_dir="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/thuan/CSS-343/Program4/cmake-build-debug"/>
+				<Option working_dir="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/thuan/CSS-343/Program4/cmake-build-debug"/>
+				<Option working_dir="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program4">
-				<Option output="/home/thuan/CSS-343/Program4/cmake-build-debug/Program4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thuan/CSS-343/Program4/cmake-build-debug"/>
+				<Option output="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Program4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program4/fast">
-				<Option output="/home/thuan/CSS-343/Program4/cmake-build-debug/Program4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thuan/CSS-343/Program4/cmake-build-debug"/>
+				<Option output="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Program4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,77 +77,77 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Program4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/thuan/CSS-343/Program4_SudokuSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/thuan/CSS-343/Program4/Fitness.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Fitness.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Fitness.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Population.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Population.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Population.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Population.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Puzzle.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Puzzle.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Puzzle.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/PuzzleFactory.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/PuzzleFactory.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/PuzzleFactory.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Reproduction.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Reproduction.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Reproduction.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Sudoku.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/Sudoku.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/Sudoku.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFactory.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFactory.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFactory.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFitness.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuFitness.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuFitness.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuOffspring.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuOffspring.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuOffspring.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuPopulation.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/SudokuPopulation.h">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/SudokuPopulation.h">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/main.cpp">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/main.cpp">
 			<Option target="Program4"/>
 		</Unit>
-		<Unit filename="/home/thuan/CSS-343/Program4/CMakeLists.txt">
+		<Unit filename="/home/thuan/CSS-343/Program4_SudokuSolver/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
